@@ -10,7 +10,7 @@ Topics progress through Generative AI, System Design, Microservices, Cloud-Nativ
 ```
 daily-learning-plans/
 └── YYYY-MM/
-    └── YYYY-MM-DD-<topic>.md
+    └── DD-<topic>.md
 ```
 
 ---
@@ -34,7 +34,7 @@ daily-learning-plans/
 #### 2026-03
 | Date | Topic | Link |
 |------|-------|------|
-| 2026-03-08 | Generative AI Fundamentals — LLMs, Tokens, Inference, Context Windows | [View](daily-learning-plans/2026-03/2026-03-08-generative-ai-fundamentals.md) |
+| 2026-03-08 | Generative AI Fundamentals — LLMs, Tokens, Inference, Context Windows | [View](daily-learning-plans/2026-03/08-generative-ai-fundamentals.md) |
 
 ---
 
