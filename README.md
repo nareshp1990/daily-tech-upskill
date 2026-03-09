@@ -35,6 +35,7 @@ daily-learning-plans/
 | Date | Topic | Link |
 |------|-------|------|
 | 2026-03-08 | Generative AI Fundamentals — LLMs, Tokens, Inference, Context Windows | [View](daily-learning-plans/2026-03/08-generative-ai-fundamentals.md) |
+| 2026-03-09 | Prompt Engineering — System Prompts, Few-Shot, JSON Mode, Chain-of-Thought | [View](daily-learning-plans/2026-03/09-prompt-engineering.md) |
 
 ---
 
