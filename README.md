@@ -37,6 +37,9 @@ daily-learning-plans/
 | 2026-03-08 | Generative AI Fundamentals — LLMs, Tokens, Inference, Context Windows | [View](daily-learning-plans/2026-03/08-generative-ai-fundamentals.md) |
 | 2026-03-09 | Prompt Engineering — System Prompts, Few-Shot, JSON Mode, Chain-of-Thought | [View](daily-learning-plans/2026-03/09-prompt-engineering.md) |
 | 2026-03-10 | LLM APIs & SDKs — Spring AI, Streaming, Retries, Production-Ready Client | [View](daily-learning-plans/2026-03/10-llm-apis-and-sdks.md) |
+| 2026-03-11 | Embeddings & Vector Search — Generating Embeddings, pgvector, Semantic Search | [View](daily-learning-plans/2026-03/11-embeddings-and-vector-search.md) |
+| 2026-03-12 | RAG — Ingest, Retrieve, Augment, Generate with Spring AI | [View](daily-learning-plans/2026-03/12-rag-retrieval-augmented-generation.md) |
+| 2026-03-13 | LLM Tool Use & Function Calling — Tools, @Tool, Multi-Step Calls | [View](daily-learning-plans/2026-03/13-tool-use-and-function-calling.md) |
 
 ---
 
