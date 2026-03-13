@@ -40,6 +40,7 @@ daily-learning-plans/
 | 2026-03-11 | Embeddings & Vector Search — Generating Embeddings, pgvector, Semantic Search | [View](daily-learning-plans/2026-03/11-embeddings-and-vector-search.md) |
 | 2026-03-12 | RAG — Ingest, Retrieve, Augment, Generate with Spring AI | [View](daily-learning-plans/2026-03/12-rag-retrieval-augmented-generation.md) |
 | 2026-03-13 | LLM Tool Use & Function Calling — Tools, @Tool, Multi-Step Calls | [View](daily-learning-plans/2026-03/13-tool-use-and-function-calling.md) |
+| 2026-03-14 | LLM Agents & Multi-Step Reasoning — ReAct Loop, Planning, Spring AI Agent | [View](daily-learning-plans/2026-03/14-llm-agents-and-multi-step-reasoning.md) |
 
 ---
 
