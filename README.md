@@ -42,6 +42,13 @@ daily-learning-plans/
 | 2026-03-13 | LLM Tool Use & Function Calling — Tools, @Tool, Multi-Step Calls | [View](daily-learning-plans/2026-03/13-tool-use-and-function-calling.md) |
 | 2026-03-14 | LLM Agents & Multi-Step Reasoning — ReAct Loop, Planning, Spring AI Agent | [View](daily-learning-plans/2026-03/14-llm-agents-and-multi-step-reasoning.md) |
 | 2026-03-15 | LLM Memory & Conversation State — In-Context History, Long-Term Vector Memory | [View](daily-learning-plans/2026-03/15-llm-memory-and-conversation-state.md) |
+| 2026-03-16 | LLM Observability & Evaluation — OTel Tracing, Token Metrics, LLM-as-Judge | [View](daily-learning-plans/2026-03/16-llm-observability-and-evaluation.md) |
+| 2026-03-17 | Structured Outputs & Output Parsing — BeanOutputConverter, Schema Enforcement | [View](daily-learning-plans/2026-03/17-structured-outputs-and-output-parsing.md) |
+| 2026-03-18 | Multi-Agent Systems & Orchestration — Orchestrator-Worker, Fan-Out/Fan-In | [View](daily-learning-plans/2026-03/18-multi-agent-systems-and-orchestration.md) |
+| 2026-03-19 | LLM Security & Prompt Injection Defense — OWASP LLM Top 10, Input Sanitisation | [View](daily-learning-plans/2026-03/19-llm-security-and-prompt-injection.md) |
+| 2026-03-20 | Production LLM Architecture & Cost Optimisation — Model Routing, Semantic Cache | [View](daily-learning-plans/2026-03/20-production-llm-architecture-and-cost-optimisation.md) |
+| 2026-03-21 | Fine-Tuning & Model Customisation — Dataset Prep, LoRA, Behaviour Alignment | [View](daily-learning-plans/2026-03/21-fine-tuning-and-model-customisation.md) |
+| 2026-03-22 | Phase 1 Capstone & Review — Full System Architecture, Self-Assessment | [View](daily-learning-plans/2026-03/22-phase1-capstone-and-review.md) |
 
 ---
 
