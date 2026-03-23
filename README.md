@@ -50,6 +50,19 @@ daily-learning-plans/
 | 2026-03-21 | Fine-Tuning & Model Customisation — Dataset Prep, LoRA, Behaviour Alignment | [View](daily-learning-plans/2026-03/21-fine-tuning-and-model-customisation.md) |
 | 2026-03-22 | Phase 1 Capstone & Review — Full System Architecture, Self-Assessment | [View](daily-learning-plans/2026-03/22-phase1-capstone-and-review.md) |
 
+### Phase 2 — System Design
+
+#### 2026-03
+| Date | Topic | Link |
+|------|-------|------|
+| 2026-03-23 | Scalability Fundamentals — Horizontal Scaling, Load Balancing, Stateless Design | [View](daily-learning-plans/2026-03/23-scalability-fundamentals.md) |
+| 2026-03-24 | Database Design & Indexing — Schema Design, Query Optimisation, Index Strategies | [View](daily-learning-plans/2026-03/24-database-design-and-indexing.md) |
+| 2026-03-25 | Caching Strategies — Redis, Cache Patterns, Invalidation, Spring Boot Integration | [View](daily-learning-plans/2026-03/25-caching-strategies.md) |
+| 2026-03-26 | Message Queues & Event-Driven Architecture — Kafka Deep Dive, Patterns | [View](daily-learning-plans/2026-03/26-message-queues-and-event-driven-architecture.md) |
+| 2026-03-27 | API Design — REST Best Practices, Versioning, Rate Limiting, Idempotency | [View](daily-learning-plans/2026-03/27-api-design.md) |
+| 2026-03-28 | Distributed Systems Fundamentals — CAP Theorem, Consistency, Consensus, Sagas | [View](daily-learning-plans/2026-03/28-distributed-systems-fundamentals.md) |
+| 2026-03-29 | Rate Limiting, Backpressure & Load Shedding — Protecting Services Under Load | [View](daily-learning-plans/2026-03/29-rate-limiting-backpressure-and-load-shedding.md) |
+
 ---
 
 *Updated as new plans are added.*
