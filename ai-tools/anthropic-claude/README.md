@@ -14,6 +14,9 @@ Capabilities ───── Setup & Basics ──── Workflows ────�
                                                                │
 05 IDE             06 API &            07 CI/CD &          08 Daily Workflow
 Integration ────── Spring AI ──────── Automation ──────── Playbook
+                                                               │
+09 Skills &        10 Cowork &         11 Latest Features
+Slash Commands ─── Multi-Agent ─────── & Releases
 ```
 
 ## Tutorials
@@ -28,6 +31,9 @@ Integration ────── Spring AI ──────── Automation ─
 | 06 | [06-claude-api-and-spring-ai.md](06-claude-api-and-spring-ai.md) | Messages API, Spring AI ChatClient, tool use, structured outputs, building a chatbot | Advanced |
 | 07 | [07-claude-in-ci-cd-and-automation.md](07-claude-in-ci-cd-and-automation.md) | GitHub Actions, automated PR review, test generation, Terraform review | Advanced |
 | 08 | [08-daily-workflow-playbook.md](08-daily-workflow-playbook.md) | Morning routines, development workflows, DevOps tasks, cheat sheet | All Levels |
+| 09 | [09-claude-code-skills-and-slash-commands.md](09-claude-code-skills-and-slash-commands.md) | Built-in commands, user-invokable skills, custom slash commands, skill workflows | Intermediate |
+| 10 | [10-claude-code-cowork-and-multi-agent.md](10-claude-code-cowork-and-multi-agent.md) | Parallel agents, plan mode, task management, headless mode, cowork patterns | Advanced |
+| 11 | [11-anthropic-latest-features-and-releases.md](11-anthropic-latest-features-and-releases.md) | Opus 4.6, Agent Teams, Cowork, Dispatch, Channels, Plugins, Agent SDK, API updates | Advanced |
 
 ## Prerequisites
 

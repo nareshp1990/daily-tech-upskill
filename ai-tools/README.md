@@ -19,6 +19,9 @@ Claude AI models, Claude Code (CLI), Claude in IDE, Claude API + Spring AI, CI/C
 | 6 | [Claude API & Spring AI](anthropic-claude/06-claude-api-and-spring-ai.md) | Messages API, SDK, Spring AI integration |
 | 7 | [Claude in CI/CD & Automation](anthropic-claude/07-claude-in-ci-cd-and-automation.md) | GitHub Actions, PR review, security scanning |
 | 8 | [Daily Workflow Playbook](anthropic-claude/08-daily-workflow-playbook.md) | Practical routines, cheat sheet, power tips |
+| 9 | [Skills & Slash Commands](anthropic-claude/09-claude-code-skills-and-slash-commands.md) | Built-in commands, custom skills, skill workflows |
+| 10 | [Cowork & Multi-Agent](anthropic-claude/10-claude-code-cowork-and-multi-agent.md) | Parallel agents, plan mode, headless, cowork patterns |
+| 11 | [Latest Features & Releases](anthropic-claude/11-anthropic-latest-features-and-releases.md) | Opus 4.6, Agent Teams, Dispatch, Channels, Plugins, Agent SDK |
 
 ### 2. [GitHub Copilot](github-copilot/README.md)
 Code completions, Copilot Chat, CLI, PR automation, advanced patterns.
@@ -45,6 +48,13 @@ Gemini models, Code Assist, API + SDK, AI Studio, Vertex AI, cloud DevOps.
 | 5 | [Gemini for Cloud & DevOps](google-gemini/05-gemini-for-cloud-and-devops.md) | GKE, logging, BigQuery, Terraform, Azure mapping |
 | 6 | [Advanced Features](google-gemini/06-gemini-advanced-features.md) | Gems, Deep Research, NotebookLM, Workspace |
 | 7 | [Daily Workflow Playbook](google-gemini/07-daily-workflow-playbook.md) | Routines, Claude vs Copilot vs Gemini matrix |
+
+### 4. [JetBrains IntelliJ IDEA](jetbrains-intellij-idea/README.md)
+All AI tools for IntelliJ IDEA — JetBrains AI Assistant, Copilot, Claude Code, Gemini, Amazon Q, Tabnine.
+
+| # | Tutorial | Focus |
+|---|----------|-------|
+| 1 | [AI Tools Mastery in IntelliJ](jetbrains-intellij-idea/01-intellij-ai-tools-mastery.md) | All AI plugins, comparison matrix, recommended setup |
 
 ---
 
