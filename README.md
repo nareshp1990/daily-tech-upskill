@@ -62,6 +62,24 @@ daily-learning-plans/
 | 2026-03-27 | API Design — REST Best Practices, Versioning, Rate Limiting, Idempotency | [View](daily-learning-plans/2026-03/27-api-design.md) |
 | 2026-03-28 | Distributed Systems Fundamentals — CAP Theorem, Consistency, Consensus, Sagas | [View](daily-learning-plans/2026-03/28-distributed-systems-fundamentals.md) |
 | 2026-03-29 | Rate Limiting, Backpressure & Load Shedding — Protecting Services Under Load | [View](daily-learning-plans/2026-03/29-rate-limiting-backpressure-and-load-shedding.md) |
+| 2026-03-30 | Consistent Hashing & Data Partitioning — Ring, VNodes, Resharding | [View](daily-learning-plans/2026-03/30-consistent-hashing-and-data-partitioning.md) |
+| 2026-03-31 | Service Discovery & Load Balancing — Eureka, Spring Cloud, Kubernetes DNS | [View](daily-learning-plans/2026-03/31-service-discovery-and-load-balancing.md) |
+
+#### 2026-04
+| Date | Topic | Link |
+|------|-------|------|
+| 2026-04-01 | Circuit Breakers & Resilience Patterns — Resilience4j, Retry, Bulkhead, TimeLimiter | [View](daily-learning-plans/2026-04/01-circuit-breakers-and-resilience-patterns.md) |
+| 2026-04-02 | Distributed Tracing & Observability — OpenTelemetry, Jaeger, Four Golden Signals | [View](daily-learning-plans/2026-04/02-distributed-tracing-and-observability.md) |
+| 2026-04-03 | Database Replication & Sharding — Primary-Replica, Read/Write Split, ShardingSphere | [View](daily-learning-plans/2026-04/03-database-replication-and-sharding.md) |
+| 2026-04-04 | CDN, Edge Caching & Global Distribution — Cache-Control, Purge, Edge Computing | [View](daily-learning-plans/2026-04/04-cdn-and-edge-caching.md) |
+| 2026-04-05 | Phase 2 Week 2 Capstone & Review — Full Architecture, Self-Assessment, Week 3 Preview | [View](daily-learning-plans/2026-04/05-phase2-week2-capstone-and-review.md) |
+| 2026-04-06 | System Design Case Study — URL Shortener (Base62, Redis, CDN, async analytics) | [View](daily-learning-plans/2026-04/06-system-design-url-shortener.md) |
+| 2026-04-07 | System Design Case Study — Social Media Feed (Fan-out on write vs read, Kafka) | [View](daily-learning-plans/2026-04/07-system-design-social-media-feed.md) |
+| 2026-04-08 | System Design Case Study — Ride-Sharing Platform (Geohash, WebSockets, state machine) | [View](daily-learning-plans/2026-04/08-system-design-ride-sharing.md) |
+| 2026-04-09 | System Design Case Study — Payment System (Idempotency, double-entry, reconciliation) | [View](daily-learning-plans/2026-04/09-system-design-payment-system.md) |
+| 2026-04-10 | System Design Case Study — Search Engine & Typeahead (Inverted index, Trie, Elasticsearch) | [View](daily-learning-plans/2026-04/10-system-design-search-and-typeahead.md) |
+| 2026-04-11 | System Design Case Study — Video Streaming Platform (HLS, transcoding pipeline, CDN) | [View](daily-learning-plans/2026-04/11-system-design-video-streaming.md) |
+| 2026-04-12 | Phase 2 Capstone & System Design Interview Prep — Framework, trade-offs, full review | [View](daily-learning-plans/2026-04/12-phase2-capstone-and-interview-prep.md) |
 
 ---
 
