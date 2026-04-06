@@ -81,6 +81,16 @@ daily-learning-plans/
 | 2026-04-11 | System Design Case Study — Video Streaming Platform (HLS, transcoding pipeline, CDN) | [View](daily-learning-plans/2026-04/11-system-design-video-streaming.md) |
 | 2026-04-12 | Phase 2 Capstone & System Design Interview Prep — Framework, trade-offs, full review | [View](daily-learning-plans/2026-04/12-phase2-capstone-and-interview-prep.md) |
 
+### AI Daily News
+
+Stay up-to-date with the latest AI developments, research breakthroughs, and industry trends from around the globe. Updated daily.
+
+| Date | Headline | Link |
+|------|----------|------|
+| 2026-04-06 | The AI Arms Race Intensifies — Trillion-Dollar Raises, Open-Source Surge, Agentic AI Mainstream | [View](ai-daily-news/2026-04/06-ai-news.md) |
+
+---
+
 ### Agentic AI — Implementation Track (21 Days)
 
 A hands-on, project-driven track for building real-world agentic AI systems using Java (Spring AI, LangChain4j) and Python (LangGraph, CrewAI). Runs in parallel with the main learning phases.
