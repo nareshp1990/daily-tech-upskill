@@ -88,35 +88,35 @@ A hands-on, project-driven track for building real-world agentic AI systems usin
 #### Week 1 — Foundations & Single Agent Mastery
 | Day | Topic | Link |
 |-----|-------|------|
-| 1 | Agentic AI Architecture Deep Dive — Patterns, frameworks, Java vs Python | [View](daily-learning-plans/agentic-ai/01-agentic-ai-architecture-deep-dive.md) |
-| 2 | Spring AI Agents — Production-Ready Single Agent (Finance Assistant) | [View](daily-learning-plans/agentic-ai/02-spring-ai-agents-production.md) |
-| 3 | LangChain4j — AI Services, Structured Output, Streaming | [View](daily-learning-plans/agentic-ai/03-langchain4j-java-agents.md) |
-| 4 | Python Agents with LangGraph — State Graphs, Conditional Edges | [View](daily-learning-plans/agentic-ai/04-python-agents-langgraph.md) |
-| 5 | Custom Tool Development — REST APIs, Databases, Files, External Services | [View](daily-learning-plans/agentic-ai/05-custom-tool-development.md) |
-| 6 | Agent Memory & State — Short-Term, Long-Term, Semantic Memory | [View](daily-learning-plans/agentic-ai/06-agent-memory-and-state.md) |
-| 7 | Project: Intelligent Research Assistant Agent | [View](daily-learning-plans/agentic-ai/07-project-research-assistant.md) |
+| 1 | Agentic AI Architecture Deep Dive — Patterns, frameworks, Java vs Python | [View](agentic-ai/01-agentic-ai-architecture-deep-dive.md) |
+| 2 | Spring AI Agents — Production-Ready Single Agent (Finance Assistant) | [View](agentic-ai/02-spring-ai-agents-production.md) |
+| 3 | LangChain4j — AI Services, Structured Output, Streaming | [View](agentic-ai/03-langchain4j-java-agents.md) |
+| 4 | Python Agents with LangGraph — State Graphs, Conditional Edges | [View](agentic-ai/04-python-agents-langgraph.md) |
+| 5 | Custom Tool Development — REST APIs, Databases, Files, External Services | [View](agentic-ai/05-custom-tool-development.md) |
+| 6 | Agent Memory & State — Short-Term, Long-Term, Semantic Memory | [View](agentic-ai/06-agent-memory-and-state.md) |
+| 7 | Project: Intelligent Research Assistant Agent | [View](agentic-ai/07-project-research-assistant.md) |
 
 #### Week 2 — Multi-Agent & Advanced Patterns
 | Day | Topic | Link |
 |-----|-------|------|
-| 8 | Multi-Agent Orchestration — Supervisor, Swarm, Hierarchical | [View](daily-learning-plans/agentic-ai/08-multi-agent-orchestration.md) |
-| 9 | LangGraph Advanced — Sub-Graphs, Parallel Execution, Human-in-the-Loop | [View](daily-learning-plans/agentic-ai/09-langgraph-multi-agent-workflows.md) |
-| 10 | CrewAI — Role-Based Agent Teams | [View](daily-learning-plans/agentic-ai/10-crewai-role-based-teams.md) |
-| 11 | Human-in-the-Loop & Agent Guardrails — Safety, Approval Gates, Cost Limits | [View](daily-learning-plans/agentic-ai/11-human-in-the-loop-and-guardrails.md) |
-| 12 | RAG-Powered Agents — Agentic Retrieval, Self-Reflective RAG | [View](daily-learning-plans/agentic-ai/12-rag-powered-agents.md) |
-| 13 | Model Context Protocol (MCP) — Universal Tool Integration | [View](daily-learning-plans/agentic-ai/13-model-context-protocol-mcp.md) |
-| 14 | Project: Customer Support Multi-Agent System | [View](daily-learning-plans/agentic-ai/14-project-customer-support-system.md) |
+| 8 | Multi-Agent Orchestration — Supervisor, Swarm, Hierarchical | [View](agentic-ai/08-multi-agent-orchestration.md) |
+| 9 | LangGraph Advanced — Sub-Graphs, Parallel Execution, Human-in-the-Loop | [View](agentic-ai/09-langgraph-multi-agent-workflows.md) |
+| 10 | CrewAI — Role-Based Agent Teams | [View](agentic-ai/10-crewai-role-based-teams.md) |
+| 11 | Human-in-the-Loop & Agent Guardrails — Safety, Approval Gates, Cost Limits | [View](agentic-ai/11-human-in-the-loop-and-guardrails.md) |
+| 12 | RAG-Powered Agents — Agentic Retrieval, Self-Reflective RAG | [View](agentic-ai/12-rag-powered-agents.md) |
+| 13 | Model Context Protocol (MCP) — Universal Tool Integration | [View](agentic-ai/13-model-context-protocol-mcp.md) |
+| 14 | Project: Customer Support Multi-Agent System | [View](agentic-ai/14-project-customer-support-system.md) |
 
 #### Week 3 — Production Projects & Capstone
 | Day | Topic | Link |
 |-----|-------|------|
-| 15 | Production Agent Architecture — Scaling, Cost Control, Observability | [View](daily-learning-plans/agentic-ai/15-production-agent-architecture.md) |
-| 16 | Project: Automated Code Review Agent (GitHub Integration) | [View](daily-learning-plans/agentic-ai/16-project-code-review-agent.md) |
-| 17 | Project: Data Analysis & Reporting Agent (SQL, Charts, Reports) | [View](daily-learning-plans/agentic-ai/17-project-data-analysis-agent.md) |
-| 18 | Project: AI-Powered DevOps Assistant (K8s, Logs, Metrics) | [View](daily-learning-plans/agentic-ai/18-project-devops-agent.md) |
-| 19 | Project: E-Commerce Shopping Agent (Search, Recommend, Cart) | [View](daily-learning-plans/agentic-ai/19-project-ecommerce-agent.md) |
-| 20 | Project: Document Processing Pipeline Agent (Classify, Extract, Route) | [View](daily-learning-plans/agentic-ai/20-project-document-processing-agent.md) |
-| 21 | Capstone: Full Production Multi-Agent System | [View](daily-learning-plans/agentic-ai/21-capstone-full-production-agent.md) |
+| 15 | Production Agent Architecture — Scaling, Cost Control, Observability | [View](agentic-ai/15-production-agent-architecture.md) |
+| 16 | Project: Automated Code Review Agent (GitHub Integration) | [View](agentic-ai/16-project-code-review-agent.md) |
+| 17 | Project: Data Analysis & Reporting Agent (SQL, Charts, Reports) | [View](agentic-ai/17-project-data-analysis-agent.md) |
+| 18 | Project: AI-Powered DevOps Assistant (K8s, Logs, Metrics) | [View](agentic-ai/18-project-devops-agent.md) |
+| 19 | Project: E-Commerce Shopping Agent (Search, Recommend, Cart) | [View](agentic-ai/19-project-ecommerce-agent.md) |
+| 20 | Project: Document Processing Pipeline Agent (Classify, Extract, Route) | [View](agentic-ai/20-project-document-processing-agent.md) |
+| 21 | Capstone: Full Production Multi-Agent System | [View](agentic-ai/21-capstone-full-production-agent.md) |
 
 ---
 
