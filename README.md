@@ -85,6 +85,8 @@ daily-learning-plans/
 
 Stay up-to-date with the latest AI developments, research breakthroughs, and industry trends from around the globe. Updated daily.
 
+**[AI Blogs, Newsletters & Resources to Follow](ai-daily-news/ai-blogs-and-resources.md)** — Curated list of 80+ blogs, newsletters, YouTube channels, podcasts, and communities.
+
 | Date | Headline | Link |
 |------|----------|------|
 | 2026-04-06 | The AI Arms Race Intensifies — Trillion-Dollar Raises, Open-Source Surge, Agentic AI Mainstream | [View](ai-daily-news/2026-04/06-ai-news.md) |
