@@ -16,6 +16,9 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Mistral AI | https://mistral.ai | Open-weight & commercial LLMs — strong coding and multilingual support |
 | Cohere | https://cohere.com | Enterprise LLMs — RAG, embeddings, classification, search |
 | AI21 Labs (Jamba) | https://ai21.com | Enterprise LLMs — long-context, Mamba-Transformer hybrid architecture |
+| Meta AI | https://meta.ai | Meta's AI assistant — powered by Llama, integrated across Facebook, Instagram, WhatsApp |
+| Microsoft Copilot | https://copilot.microsoft.com | Microsoft's AI assistant — web search, image gen, Office integration, free tier |
+| Poe | https://poe.com | AI chat aggregator — access GPT-4, Claude, Gemini, Llama and more in one place |
 
 ---
 
@@ -36,6 +39,8 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Deepinfra | https://deepinfra.com | Low-cost inference — open-source models, autoscaling, OpenAI-compatible API |
 | Cerebras | https://cerebras.ai | Wafer-scale inference — fastest inference speeds for large models |
 | SambaNova | https://sambanova.ai | Enterprise AI platform — custom hardware (RDU), full-stack AI solutions |
+| OpenAI Platform | https://platform.openai.com | OpenAI API docs & playground — GPT, DALL-E, Whisper, Embeddings API access |
+| Google AI Studio | https://aistudio.google.com | Google's AI playground — prototype with Gemini models, prompt design, API key management |
 
 ---
 
@@ -70,6 +75,11 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Sourcegraph Cody | https://sourcegraph.com/cody | AI coding assistant — entire codebase as context, code search, multi-repo support |
 | Devin (Cognition) | https://devin.ai | Autonomous AI software engineer — full SDLC, browser + terminal + editor access |
 | Replit AI | https://replit.com | Browser-based IDE with AI — code generation, deployment, collaborative, mobile support |
+| Jules (Google) | https://jules.google | Google's AI coding agent — asynchronous task execution, GitHub integration |
+| AutoGPT | https://github.com/Significant-Gravitas/AutoGPT | Open-source autonomous AI agent — performs tasks independently, chains actions |
+| Sourcery | https://sourcery.ai | AI Python refactoring — automated code reviews, quality improvements, IDE integration |
+| Eclipse Theia | https://theia-ide.org | Extensible IDE framework — cloud/desktop, VS Code extension compatible, AI-ready |
+| DeepCode (Snyk) | https://snyk.io/platform/deepcode-ai | AI-powered code review — semantic analysis, bug detection, security vulnerability scanning |
 
 ---
 
@@ -84,6 +94,9 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Create (create.xyz) | https://create.xyz | AI app generator — describe functionality, get a working web app with backend |
 | Dora AI | https://dora.run | AI website builder — text-to-3D website, animations, no-code, one-click publish |
 | Framer AI | https://framer.com | AI website design — generate layouts, copy, and interactions from prompts |
+| Firebase Studio | https://firebase.studio | Google's AI app builder — full-stack prototyping, Gemini-powered, deploy to Firebase |
+| Stitch (Google) | https://stitch.withgoogle.com | Google's AI creative tool — generate and edit visuals, UI mockups from prompts |
+| VectorShift | https://vectorshift.ai | No-code AI automation platform — build AI pipelines, chatbots, and workflows visually |
 
 ---
 
@@ -105,6 +118,7 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Make (Integromat) | https://make.com | Visual automation platform — complex workflows, API integrations, data transformation |
 | Dify | https://dify.ai | Open-source LLM app platform — visual prompt engineering, RAG, agent builder |
 | FlowiseAI | https://flowiseai.com | Open-source drag-and-drop LLM flow builder — LangChain-based, self-hostable |
+| Agent.ai | https://agent.ai | AI agent marketplace — discover, build, and deploy AI agents across categories |
 
 ---
 
@@ -119,6 +133,7 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Consensus | https://consensus.app | Academic AI search — searches 200M+ papers, extracts findings, yes/no meter |
 | Semantic Scholar | https://semanticscholar.org | AI-powered academic search — paper recommendations, citation analysis |
 | Phind | https://phind.com | AI search for developers — code-focused answers with sources |
+| Tavily | https://tavily.com | AI search API — optimized for LLM agents, real-time web search with structured results |
 
 ---
 
@@ -149,6 +164,15 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Adobe Firefly | https://firefly.adobe.com | Commercial-safe image generation — trained on licensed content, Photoshop integration |
 | Ideogram | https://ideogram.ai | Text-to-image — excellent text rendering in images, stylistic diversity |
 | Leonardo AI | https://leonardo.ai | AI image generation — game assets, concept art, real-time canvas, fine-tuning |
+| ComfyUI | https://github.com/comfyanonymous/ComfyUI | Node-based Stable Diffusion UI — visual workflow builder, modular, power-user tool |
+| Stable Diffusion Web | https://stablediffusionweb.com | Browser-based Stable Diffusion — free, no install, text-to-image generation |
+| Craiyon | https://craiyon.com | Free text-to-image generator — formerly DALL-E Mini, no sign-up required |
+| DeepAI | https://deepai.org | Free AI image APIs — text-to-image, style transfer, colorization, super resolution |
+| Artbreeder | https://artbreeder.com | Collaborative AI image blending — mix and evolve images, portraits, landscapes |
+| NightCafe | https://nightcafe.studio | AI art generator — multiple algorithms (SDXL, DALL-E), community gallery, credits system |
+| Wombo Dream | https://dream.ai | Mobile AI art app — text-to-image, multiple styles, fast generation |
+| StarryAI | https://starryai.com | AI art from text prompts — ownership of generated art, multiple AI models |
+| PaintsChainer | https://paintschainer.preferred.tech | AI auto-colorization — upload sketches, get auto-colored results |
 
 ---
 
@@ -165,6 +189,14 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Synthesia | https://synthesia.io | Enterprise AI video — 230+ avatars, 140+ languages, training & marketing videos |
 | Luma Dream Machine | https://lumalabs.ai | Text/image-to-video — fast generation, cinematic motion, 3D-aware |
 | Descript | https://descript.com | AI video/audio editor — text-based editing, filler word removal, screen recording |
+| Veo 3 (Google) | https://deepmind.google/technologies/veo | Google's latest video model — photorealistic, audio generation, cinematic quality |
+| Bing Video Creator | https://bing.com/videos/create | Microsoft's AI video generator — Sora-based, integrated with Bing/Edge |
+| InVideo | https://invideo.io | Online video maker with AI — templates, auto-editing, text-to-video |
+| Veed.io | https://veed.io | Online video editing platform — AI subtitles, auto-translate, screen recording |
+| Lumen5 | https://lumen5.com | Blog-to-video AI — transforms articles/posts into engaging video content |
+| Pictory | https://pictory.ai | AI video summarization — turn long content into short branded videos |
+| Clipchamp (Microsoft) | https://clipchamp.com | Microsoft's video editor — AI voiceover, auto-compose, templates, free tier |
+| Magisto (Vimeo) | https://magisto.com | AI-powered smart video editor — auto-editing, business video creation |
 
 ---
 
@@ -193,6 +225,12 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Writesonic | https://writesonic.com | AI content generation — articles, ads, landing pages, SEO optimization |
 | Sudowrite | https://sudowrite.com | AI fiction writing — story generation, character development, prose enhancement |
 | Lex | https://lex.page | AI writing editor — minimal interface, inline AI suggestions, focused writing |
+| QuillBot | https://quillbot.com | AI paraphrasing — grammar checker, summarizer, citation generator, plagiarism check |
+| Hemingway Editor | https://hemingwayapp.com | Writing clarity tool — highlights complex sentences, passive voice, readability score |
+| ProWritingAid | https://prowritingaid.com | Comprehensive writing editor — grammar, style, structure analysis, 20+ reports |
+| Rytr | https://rytr.me | AI content writing assistant — 40+ templates, 30+ languages, tone selection |
+| INK Editor | https://inkforall.com | AI writing + SEO optimization — content scoring, keyword optimization, SERP analysis |
+| Slick Write | https://slickwrite.com | Free writing tool — grammar/style suggestions, readability stats, word associations |
 
 ---
 
@@ -207,6 +245,8 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Tome | https://tome.app | AI storytelling — presentations, pitch decks, narratives from prompts |
 | Relume | https://relume.io | AI website wireframes — sitemap generator, wireframe-to-Figma, component library |
 | Galileo AI | https://usegalileo.ai | AI UI design — generate high-fidelity designs from text descriptions |
+| Microsoft Designer | https://designer.microsoft.com | AI graphic design — social media posts, invitations, banners, stickers from prompts |
+| Rows | https://rows.com | AI-powered spreadsheet — built-in AI analyst, data import, charts, automation |
 
 ---
 
@@ -287,6 +327,16 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Deepnote | https://deepnote.com | AI-powered notebooks — collaborative, SQL integration, AI code generation |
 | Tableau AI | https://tableau.com | BI with AI — natural language queries, automated insights, Pulse analytics |
 | Obviously AI | https://obviously.ai | No-code ML — predict outcomes from spreadsheets, auto-model selection |
+| Tableau Public | https://public.tableau.com | Free data visualization — interactive dashboards, public sharing, community gallery |
+| Google Looker Studio | https://lookerstudio.google.com | Free BI & reporting — dashboards, 800+ data connectors, real-time collaboration |
+| Microsoft Power BI | https://powerbi.microsoft.com | Business intelligence — data modeling, DAX, AI visuals, free desktop version |
+| KNIME | https://knime.com | Open-source analytics — visual workflow builder, ML, data mining, no-code/low-code |
+| RapidMiner | https://rapidminer.com | Visual data science — ML workflows, auto-model, enterprise analytics |
+| Orange | https://orangedatamining.com | Visual programming for data mining — drag-and-drop, ML, visualization, education |
+| Apache Superset | https://superset.apache.org | Open-source BI platform — SQL editor, dashboards, 40+ visualization types |
+| Metabase | https://metabase.com | Open-source data visualization — ask questions in plain language, dashboards |
+| Datawrapper | https://datawrapper.de | Free chart/map/table maker — responsive, publication-ready, no coding required |
+| Polars | https://pola.rs | High-speed DataFrame library — Rust-based, Python/Node bindings, faster than Pandas |
 
 ---
 
@@ -300,6 +350,19 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Relevance AI | https://relevanceai.com | AI workforce platform — build & deploy AI agents for sales, support, ops |
 | Bland AI | https://bland.ai | AI phone calls — outbound/inbound, human-like conversations, API-driven |
 | Intercom Fin | https://intercom.com | AI customer support — resolves tickets autonomously, learns from help center |
+| Meet Emily | https://meetemily.ai | AI personal assistant — scheduling, email management, task automation |
+
+---
+
+## 21. AI Tool Discovery & Directories
+
+| Tool | Website | Purpose |
+|------|---------|---------|
+| There's An AI For That | https://theresanaiforthat.com | Largest AI tool directory — 10,000+ tools, daily updates, categories, reviews |
+| AI Xploria | https://aixploria.com | AI tool discovery — curated directory, categories, new tool alerts |
+| MyNinja AI | https://myninja.ai | AI tool finder — search and compare AI tools by use case |
+| Product Hunt | https://producthunt.com | Tech product discovery — daily launches, AI tools section, community voting |
+| Futurepedia | https://futurepedia.io | AI tools directory — 5000+ tools, daily updates, categories, free/paid filters |
 
 ---
 
@@ -308,24 +371,30 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | I want to... | Use |
 |--------------|-----|
 | Run LLMs locally | Ollama, LM Studio, Jan |
-| Build AI apps (no-code) | Lovable, Bolt, v0 |
-| Code with AI assistance | Claude Code, Cursor, GitHub Copilot |
-| Automate workflows | n8n, Zapier, Make |
+| Build AI apps (no-code) | Lovable, Bolt, v0, Firebase Studio |
+| Code with AI assistance | Claude Code, Cursor, GitHub Copilot, Jules |
+| Automate workflows | n8n, Zapier, Make, VectorShift |
 | Build RAG pipelines | LangChain, LlamaIndex, Spring AI |
-| Orchestrate agents | CrewAI, LangGraph, AutoGen |
-| Search & research | Perplexity, Elicit, Consensus |
-| Generate images | Midjourney, Stable Diffusion, Flux |
-| Generate video | Runway, Kling, Sora |
+| Orchestrate agents | CrewAI, LangGraph, AutoGen, Agent.ai |
+| Search & research | Perplexity, Tavily, Elicit, Consensus |
+| Generate images | Midjourney, Stable Diffusion, Flux, ComfyUI |
+| Generate video | Runway, Kling, Sora, Veo 3 |
 | Generate music | Suno, Udio |
 | Clone voices / TTS | ElevenLabs, Murf AI |
 | Transcribe audio | Whisper, AssemblyAI, Otter.ai |
 | Store embeddings | Pinecone, Qdrant, pgvector, Chroma |
 | Monitor LLM apps | LangSmith, Langfuse, Helicone |
-| Access multiple models via one API | OpenRouter, Together AI, AWS Bedrock |
+| Access multiple models via one API | OpenRouter, Together AI, AWS Bedrock, Poe |
 | Create presentations | Gamma, Beautiful.ai, Canva |
-| Write marketing content | Jasper, Copy.ai |
+| Write marketing content | Jasper, Copy.ai, Rytr |
+| Paraphrase & edit writing | QuillBot, Hemingway, ProWritingAid, Grammarly |
+| Design graphics | Canva, Microsoft Designer, Figma AI |
+| Edit videos | Descript, Veed.io, Clipchamp, InVideo |
+| Visualize data | Tableau, Metabase, Apache Superset, Looker Studio |
 | Manage AI security | Guardrails AI, Lakera, NeMo Guardrails |
+| Discover new AI tools | There's An AI For That, Product Hunt, AI Xploria |
+| Prototype with AI APIs | Google AI Studio, OpenAI Platform, Hugging Face |
 
 ---
 
-*Last updated: 2026-04-07. The AI tool landscape evolves rapidly — verify pricing and features on official websites.*
+*Last updated: 2026-04-07. 200+ tools across 21 categories. The AI tool landscape evolves rapidly — verify pricing and features on official websites.*

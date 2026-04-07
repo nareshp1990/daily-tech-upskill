@@ -85,7 +85,7 @@ daily-learning-plans/
 
 Stay up-to-date with the latest AI developments, research breakthroughs, and industry trends from around the globe. Updated daily.
 
-**[AI Tools Directory](ai-tools-directory.md)** — 150+ AI tools across 20 categories with websites and use cases.
+**[AI Tools Directory](ai-tools-directory.md)** — 200+ AI tools across 21 categories with websites and use cases.
 
 **[AI Blogs, Newsletters & Resources to Follow](ai-daily-news/ai-blogs-and-resources.md)** — Curated list of 80+ blogs, newsletters, YouTube channels, podcasts, and communities.
 
