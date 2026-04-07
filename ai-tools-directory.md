@@ -15,6 +15,7 @@ A comprehensive reference of AI tools, platforms, and services organized by cate
 | Meta (Llama) | https://llama.meta.com | Open-weight frontier models — free for commercial use (up to 700M MAU) |
 | Mistral AI | https://mistral.ai | Open-weight & commercial LLMs — strong coding and multilingual support |
 | Cohere | https://cohere.com | Enterprise LLMs — RAG, embeddings, classification, search |
+| DeepSeek | https://deepseek.com | Open-source frontier LLM — DeepSeek-V3/R1, strong reasoning & coding, MoE architecture, very cost-efficient |
 | AI21 Labs (Jamba) | https://ai21.com | Enterprise LLMs — long-context, Mamba-Transformer hybrid architecture |
 | Meta AI | https://meta.ai | Meta's AI assistant — powered by Llama, integrated across Facebook, Instagram, WhatsApp |
 | Microsoft Copilot | https://copilot.microsoft.com | Microsoft's AI assistant — web search, image gen, Office integration, free tier |
