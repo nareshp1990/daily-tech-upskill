@@ -87,6 +87,8 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 
 **[AI Tools Directory](ai-tools-directory.md)** — 200+ AI tools across 21 categories with websites and use cases.
 
+**[The Ultimate AI Prompt Book](ultimate-ai-prompt-book.md)** — 500+ ready-to-use prompts across 25 categories for developers, engineers, and tech professionals.
+
 **[AI Blogs, Newsletters & Resources to Follow](ai-daily-news/ai-blogs-and-resources.md)** — Curated list of 80+ blogs, newsletters, YouTube channels, podcasts, and communities.
 
 | Date | Headline | Link |
