@@ -90,6 +90,7 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 | Date | Headline | Link |
 |------|----------|------|
 | 2026-04-06 | The AI Arms Race Intensifies — Trillion-Dollar Raises, Open-Source Surge, Agentic AI Mainstream | [View](ai-daily-news/2026-04/06-ai-news.md) |
+| 2026-04-07 | Microsoft Ships Agent Governance Toolkit, Utah Greenlights AI Prescriptions, Agentic Era Phase 2 | [View](ai-daily-news/2026-04/07-ai-news.md) |
 
 ---
 
