@@ -95,6 +95,7 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 |------|----------|------|
 | 2026-04-06 | The AI Arms Race Intensifies — Trillion-Dollar Raises, Open-Source Surge, Agentic AI Mainstream | [View](ai-daily-news/2026-04/06-ai-news.md) |
 | 2026-04-07 | Microsoft Ships Agent Governance Toolkit, Utah Greenlights AI Prescriptions, Agentic Era Phase 2 | [View](ai-daily-news/2026-04/07-ai-news.md) |
+| 2026-04-08 | Anthropic Unveils Claude Mythos 5 (10T Params), DeepSeek V4 Trains for $5.2M, Q1 VC Hits $300B | [View](ai-daily-news/2026-04/08-ai-news.md) |
 
 ---
 
