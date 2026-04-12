@@ -97,6 +97,9 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 | 2026-04-07 | Microsoft Ships Agent Governance Toolkit, Utah Greenlights AI Prescriptions, Agentic Era Phase 2 | [View](ai-daily-news/2026-04/07-ai-news.md) |
 | 2026-04-08 | Anthropic Unveils Claude Mythos 5 (10T Params), DeepSeek V4 Trains for $5.2M, Q1 VC Hits $300B | [View](ai-daily-news/2026-04/08-ai-news.md) |
 | 2026-04-09 | Meta Launches Muse Spark, Anthropic Revenue Hits $30B Run Rate, Eli Lilly Powers Drug Discovery with 1,016 GPUs | [View](ai-daily-news/2026-04/09-ai-news.md) |
+| 2026-04-10 | OpenAI Closes $122B Round at $852B Valuation, Google Gemma 4 Drops Open-Source, Frontier Labs Unite Against AI Model Theft | [View](ai-daily-news/2026-04/10-ai-news.md) |
+| 2026-04-11 | India Bets $10B on AI Infrastructure, Anthropic Acquires Coefficient Bio for $400M, Agentic VC Funding Up 142% YoY | [View](ai-daily-news/2026-04/11-ai-news.md) |
+| 2026-04-12 | Gemini 3.1 Ultra Hits 2M Token Context, World Models Emerge as 2026's Core AI Frontier, NVIDIA GR00T Opens Physical AI to Everyone | [View](ai-daily-news/2026-04/12-ai-news.md) |
 
 ---
 
