@@ -81,6 +81,14 @@ daily-learning-plans/
 | 2026-04-11 | System Design Case Study — Video Streaming Platform (HLS, transcoding pipeline, CDN) | [View](daily-learning-plans/2026-04/11-system-design-video-streaming.md) |
 | 2026-04-12 | Phase 2 Capstone & System Design Interview Prep — Framework, trade-offs, full review | [View](daily-learning-plans/2026-04/12-phase2-capstone-and-interview-prep.md) |
 
+### Phase 3 — Microservices & Cloud-Native
+
+#### 2026-04
+| Date | Topic | Link |
+|------|-------|------|
+| 2026-04-13 | Microservices Patterns — DDD Bounded Contexts, Decomposition, Communication, Sagas | [View](daily-learning-plans/2026-04/13-microservices-patterns.md) |
+| 2026-04-14 | API Gateway & BFF — Spring Cloud Gateway, JWT Auth, Rate Limiting, Backend for Frontend | [View](daily-learning-plans/2026-04/14-api-gateway-and-bff.md) |
+
 ### AI Daily News
 
 Stay up-to-date with the latest AI developments, research breakthroughs, and industry trends from around the globe. Updated daily.
@@ -100,6 +108,8 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 | 2026-04-10 | OpenAI Closes $122B Round at $852B Valuation, Google Gemma 4 Drops Open-Source, Frontier Labs Unite Against AI Model Theft | [View](ai-daily-news/2026-04/10-ai-news.md) |
 | 2026-04-11 | India Bets $10B on AI Infrastructure, Anthropic Acquires Coefficient Bio for $400M, Agentic VC Funding Up 142% YoY | [View](ai-daily-news/2026-04/11-ai-news.md) |
 | 2026-04-12 | Gemini 3.1 Ultra Hits 2M Token Context, World Models Emerge as 2026's Core AI Frontier, NVIDIA GR00T Opens Physical AI to Everyone | [View](ai-daily-news/2026-04/12-ai-news.md) |
+| 2026-04-13 | OpenAI Launches GPT-5o with Native Code Execution, Apple Acquires Reka AI for $1.8B, EU Passes AI Liability Directive | [View](ai-daily-news/2026-04/13-ai-news.md) |
+| 2026-04-14 | Llama 4 Maverick Tops Open-Source Leaderboard, NVIDIA Project Digits Ships, Kubernetes AI Operator Goes GA | [View](ai-daily-news/2026-04/14-ai-news.md) |
 
 ---
 
