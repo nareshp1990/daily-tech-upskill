@@ -4,259 +4,49 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "ai_news_frontier_models",
-        "label": "Frontier Model Competition (Anthropic, OpenAI, Google)",
+        "id": "frontier_model_competition_apr13_14",
+        "label": "Frontier Model Competition April 13-14 (GPT-5o, Llama 4 Maverick, Claude Sonnet 4.7, Gemini 3.1 Flash)",
         "nodes": [
-          "news_08_claude_mythos5",
-          "news_10_openai_852b",
-          "news_12_gemini_ultra_2m",
-          "news_06_claude46_family"
+          "news_13_gpt5o_launch",
+          "news_14_llama4_maverick",
+          "news_13_claude_sonnet47",
+          "news_14_gemini31_flash002"
         ],
         "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "ai-daily-news/2026-04/12-ai-news.md"
-      },
-      {
-        "id": "prompt_lib_backend_stack",
-        "label": "Backend Engineer Prompt Stack",
-        "nodes": [
-          "prompt_lib_java_spring",
-          "prompt_lib_kafka",
-          "prompt_lib_mysql",
-          "prompt_lib_azure",
-          "prompt_lib_terraform"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": "prompt-library/README.md"
-      },
-      {
-        "id": "claude_code_workflow_suite",
-        "label": "Claude Code Complete Workflow Suite",
-        "nodes": [
-          "claude_setup_basics",
-          "claude_advanced_workflows",
-          "claude_cowork_multi_agent",
-          "claude_customisation",
-          "claude_daily_workflow"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": "ai-tools/anthropic-claude/README.md"
-      },
-      {
-        "id": "ai_coding_assistants_trio",
-        "label": "AI Coding Assistants (Claude, Copilot, JetBrains)",
-        "nodes": [
-          "claude_code_in_ide",
-          "copilot_chat_edits",
-          "jetbrains_ai_mastery"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "ai-tools/README.md"
-      },
-      {
-        "id": "agentic_framework_trio",
-        "label": "Agentic AI Framework Trio (Spring AI, LangChain4j, LangGraph)",
-        "nodes": [
-          "agentic_spring_ai_production",
-          "agentic_langchain4j",
-          "agentic_langgraph_python"
-        ],
-        "relation": "form",
         "confidence": "INFERRED",
         "confidence_score": 0.88,
-        "source_file": "agentic-ai/01-agentic-ai-architecture-deep-dive.md"
+        "source_file": "ai-daily-news/2026-04/14-ai-news.md"
       },
       {
-        "id": "ai_ide_assistants",
-        "label": "AI IDE Assistants (Copilot, Gemini, JetBrains)",
+        "id": "microservices_resilience_patterns",
+        "label": "Microservices Resilience Patterns (Circuit Breaker, Saga, Rate Limiting, BFF Fallback)",
         "nodes": [
-          "copilot_code_completion",
-          "gemini_in_ide",
-          "copilot_cli"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "ai-tools/README.md"
-      },
-      {
-        "id": "agentic_production_projects",
-        "label": "Agentic AI Production Projects",
-        "nodes": [
-          "agentic_code_review_project",
-          "agentic_customer_support_project",
-          "agentic_data_analysis_project"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": "agentic-ai/21-capstone-full-production-agent.md"
-      },
-      {
-        "id": "agentic_production_projects_w3",
-        "label": "Week 3 Production Agent Projects",
-        "nodes": [
-          "agentic_ecommerce_project",
-          "agentic_devops_project",
-          "agentic_doc_processing_project",
-          "agentic_research_assistant"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": "agentic-ai/15-production-agent-architecture.md"
-      },
-      {
-        "id": "sd_case_studies",
-        "label": "System Design Case Studies (Ride-Share, Payment, Social Feed, URL Shortener)",
-        "nodes": [
-          "sdplan_ride_sharing",
-          "sdplan_payment_system",
-          "sdplan_social_media_feed",
-          "sdplan_url_shortener"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": "daily-learning-plans/2026-04/12-phase2-capstone-and-interview-prep.md"
-      },
-      {
-        "id": "multi_agent_orchestration_patterns",
-        "label": "Multi-Agent Orchestration Patterns",
-        "nodes": [
-          "agentic_multi_agent_orchestration",
-          "agentic_crewai",
-          "agentic_langgraph_multi_agent"
+          "plan_microservices_circuit_breaker",
+          "plan_microservices_saga",
+          "plan_gateway_rate_limiting",
+          "plan_spring_cloud_gateway"
         ],
         "relation": "implement",
         "confidence": "INFERRED",
-        "confidence_score": 0.88,
-        "source_file": "agentic-ai/08-multi-agent-orchestration.md"
+        "confidence_score": 0.85,
+        "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md"
       },
       {
-        "id": "llm_pipeline_foundation",
-        "label": "LLM Integration Pipeline (Embeddings \u2192 RAG \u2192 Agents \u2192 Memory)",
+        "id": "ai_regulation_wave_2026",
+        "label": "AI Regulation Wave 2026 (EU Liability, US Senate Act, UK AISI, China NAISC)",
         "nodes": [
-          "plan_embeddings_vector_search",
-          "plan_rag",
-          "plan_llm_agents",
-          "plan_llm_memory",
-          "plan_tool_calling"
+          "news_13_eu_ai_liability",
+          "news_13_us_senate_ai_act",
+          "news_14_ai_news_digest"
         ],
-        "relation": "form",
+        "relation": "participate_in",
         "confidence": "INFERRED",
-        "confidence_score": 0.92,
-        "source_file": "daily-learning-plans/2026-03/22-phase1-capstone-and-review.md"
-      },
-      {
-        "id": "system_design_infrastructure",
-        "label": "System Design Infrastructure Core (Caching, DB, Queues, Rate Limiting)",
-        "nodes": [
-          "plan_caching",
-          "plan_db_design_indexing",
-          "plan_message_queues",
-          "plan_rate_limiting"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.9,
-        "source_file": "daily-learning-plans/2026-03/23-scalability-fundamentals.md"
-      },
-      {
-        "id": "distributed_systems_core",
-        "label": "Distributed Systems Core (CAP, Hashing, Discovery, Service Mesh)",
-        "nodes": [
-          "plan_distributed_systems",
-          "plan_consistent_hashing",
-          "plan_service_discovery"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.88,
-        "source_file": "daily-learning-plans/2026-03/28-distributed-systems-fundamentals.md"
+        "confidence_score": 0.82,
+        "source_file": "ai-daily-news/2026-04/13-ai-news.md"
       }
     ]
   },
   "nodes": [
-    {
-      "label": "Daily Tech Upskill Project",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_daily_tech_upskill",
-      "community": 2
-    },
-    {
-      "label": "Phase 1: Generative AI & Agentic AI",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_phase1_gen_ai",
-      "community": 2
-    },
-    {
-      "label": "Phase 2: System Design",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_phase2_system_design",
-      "community": 2
-    },
-    {
-      "label": "Phase 3: Microservices & Cloud-Native",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_phase3_microservices",
-      "community": 2
-    },
-    {
-      "label": "Phase 4: DevOps & Platform Engineering",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_phase4_devops",
-      "community": 2
-    },
-    {
-      "label": "Phase 5: Emerging Backend Tech",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_phase5_emerging",
-      "community": 2
-    },
     {
       "label": "LLM Providers (OpenAI, Anthropic, Google, Meta)",
       "file_type": "document",
@@ -266,8 +56,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_tools_dir_llm_providers",
-      "community": 2
+      "community": 10,
+      "id": "ai_tools_dir_llm_providers"
     },
     {
       "label": "AI Inference & API Platforms",
@@ -278,8 +68,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_tools_dir_inference_platforms",
-      "community": 2
+      "community": 10,
+      "id": "ai_tools_dir_inference_platforms"
     },
     {
       "label": "AI Code Editors & Assistants",
@@ -290,8 +80,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_tools_dir_code_editors",
-      "community": 2
+      "community": 10,
+      "id": "ai_tools_dir_code_editors"
     },
     {
       "label": "Local LLM Tools (Ollama, LM Studio, llama.cpp)",
@@ -302,8 +92,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_tools_dir_local_llm",
-      "community": 2
+      "community": 10,
+      "id": "ai_tools_dir_local_llm"
     },
     {
       "label": "Senior Backend Engineer Learning Profile",
@@ -314,8 +104,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_prompt_engineer_profile",
-      "community": 3
+      "community": 4,
+      "id": "ai_prompt_engineer_profile"
     },
     {
       "label": "AI Blogs, Newsletters & Resources",
@@ -326,8 +116,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_blogs_newsletters",
-      "community": 2
+      "community": 11,
+      "id": "ai_blogs_newsletters"
     },
     {
       "label": "Official AI Lab Blogs (Anthropic, OpenAI, Google DeepMind)",
@@ -338,8 +128,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_blogs_lab_blogs",
-      "community": 2
+      "community": 11,
+      "id": "ai_blogs_lab_blogs"
     },
     {
       "label": "AI Newsletters (The Batch, TLDR AI, Ben's Bites)",
@@ -350,8 +140,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_blogs_newsletters_list",
-      "community": 2
+      "community": 11,
+      "id": "ai_blogs_newsletters_list"
     },
     {
       "label": "Gemini 3.1 Ultra \u2014 2M Token Context Window",
@@ -362,8 +152,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_12_gemini_ultra_2m",
-      "community": 9
+      "community": 12,
+      "id": "news_12_gemini_ultra_2m"
     },
     {
       "label": "World Models as 2026 AI Frontier",
@@ -374,8 +164,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_12_world_models",
-      "community": 10
+      "community": 13,
+      "id": "news_12_world_models"
     },
     {
       "label": "MCP at 97M Installs \u2014 Protocol Standard",
@@ -386,8 +176,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_12_mcp_97m_installs",
-      "community": 12
+      "community": 15,
+      "id": "news_12_mcp_97m_installs"
     },
     {
       "label": "NVIDIA Isaac GR00T \u2014 Language-Driven Robotics",
@@ -398,8 +188,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_12_nvidia_groot",
-      "community": 10
+      "community": 13,
+      "id": "news_12_nvidia_groot"
     },
     {
       "label": "AI Daily News 2026-04-11",
@@ -410,8 +200,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_11_ai_updates",
-      "community": 14
+      "community": 17,
+      "id": "news_11_ai_updates"
     },
     {
       "label": "OpenAI $122B Round at $852B Valuation",
@@ -422,8 +212,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_10_openai_852b",
-      "community": 15
+      "community": 18,
+      "id": "news_10_openai_852b"
     },
     {
       "label": "Google Gemma 4 Open-Source Release",
@@ -434,8 +224,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_10_gemma4_opensource",
-      "community": 9
+      "community": 12,
+      "id": "news_10_gemma4_opensource"
     },
     {
       "label": "Anthropic Revenue Hits $30B Run Rate",
@@ -446,8 +236,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_09_anthropic_30b",
-      "community": 16
+      "community": 19,
+      "id": "news_09_anthropic_30b"
     },
     {
       "label": "Claude Mythos 5 \u2014 10T Parameter Model",
@@ -458,8 +248,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_08_claude_mythos5",
-      "community": 11
+      "community": 14,
+      "id": "news_08_claude_mythos5"
     },
     {
       "label": "DeepSeek V4 Trains for $5.2M",
@@ -470,8 +260,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_08_deepseek_v4",
-      "community": 9
+      "community": 12,
+      "id": "news_08_deepseek_v4"
     },
     {
       "label": "Microsoft Agent Governance Toolkit",
@@ -482,8 +272,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_07_ms_agent_governance",
-      "community": 12
+      "community": 15,
+      "id": "news_07_ms_agent_governance"
     },
     {
       "label": "Claude 4.6 Family \u2014 Opus and Sonnet",
@@ -494,8 +284,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_06_claude46_family",
-      "community": 11
+      "community": 14,
+      "id": "news_06_claude46_family"
     },
     {
       "label": "Gemma 4 Apache 2.0 \u2014 Four Model Sizes",
@@ -506,8 +296,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "news_06_gemma4_apache2",
-      "community": 17
+      "community": 20,
+      "id": "news_06_gemma4_apache2"
     },
     {
       "label": "Prompt Library Overview",
@@ -518,8 +308,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_overview",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_overview"
     },
     {
       "label": "Java & Spring Boot Prompts",
@@ -530,8 +320,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_java_spring",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_java_spring"
     },
     {
       "label": "Azure Cloud Prompts",
@@ -542,8 +332,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_azure",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_azure"
     },
     {
       "label": "Git & Code Review Prompts",
@@ -554,8 +344,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_git",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_git"
     },
     {
       "label": "Confluent Kafka Prompts",
@@ -566,8 +356,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_kafka",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_kafka"
     },
     {
       "label": "Testing Prompts (JUnit 5, Mockito, Testcontainers)",
@@ -578,8 +368,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_testing",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_testing"
     },
     {
       "label": "Communication & Productivity Prompts",
@@ -590,8 +380,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_communication",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_communication"
     },
     {
       "label": "Ultimate AI Prompt Book (500+ Prompts)",
@@ -602,8 +392,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_ultimate_book",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_ultimate_book"
     },
     {
       "label": "MySQL & Data Prompts",
@@ -614,8 +404,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_mysql",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_mysql"
     },
     {
       "label": "Terraform IaC Prompts",
@@ -626,8 +416,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_terraform",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_terraform"
     },
     {
       "label": "CI/CD & GitHub Actions Prompts",
@@ -638,8 +428,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_cicd",
-      "community": 3
+      "community": 4,
+      "id": "prompt_lib_cicd"
     },
     {
       "label": "DevOps & Observability Prompts",
@@ -650,8 +440,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_devops_obs",
-      "community": 13
+      "community": 16,
+      "id": "prompt_lib_devops_obs"
     },
     {
       "label": "Docker & Kubernetes Prompts",
@@ -662,8 +452,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prompt_lib_docker_k8s",
-      "community": 13
+      "community": 16,
+      "id": "prompt_lib_docker_k8s"
     },
     {
       "label": "AI Tools Overview",
@@ -674,8 +464,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_tools_readme",
-      "community": 0
+      "community": 2,
+      "id": "ai_tools_readme"
     },
     {
       "label": "JetBrains IntelliJ IDEA AI Tools",
@@ -686,8 +476,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "jetbrains_readme",
-      "community": 0
+      "community": 2,
+      "id": "jetbrains_readme"
     },
     {
       "label": "IntelliJ AI Tools Mastery",
@@ -698,8 +488,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "jetbrains_ai_mastery",
-      "community": 0
+      "community": 2,
+      "id": "jetbrains_ai_mastery"
     },
     {
       "label": "Claude Code Skills & Slash Commands",
@@ -710,8 +500,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_skills_slash_commands",
-      "community": 0
+      "community": 2,
+      "id": "claude_skills_slash_commands"
     },
     {
       "label": "Claude Code in IDE Integration",
@@ -722,8 +512,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_code_in_ide",
-      "community": 0
+      "community": 2,
+      "id": "claude_code_in_ide"
     },
     {
       "label": "Claude Model Families (Opus, Sonnet, Haiku)",
@@ -734,8 +524,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_models_capabilities",
-      "community": 0
+      "community": 2,
+      "id": "claude_models_capabilities"
     },
     {
       "label": "Anthropic Claude AI Tools Overview",
@@ -746,8 +536,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_readme",
-      "community": 0
+      "community": 2,
+      "id": "claude_readme"
     },
     {
       "label": "Claude Code Cowork & Multi-Agent Collaboration",
@@ -758,8 +548,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_cowork_multi_agent",
-      "community": 0
+      "community": 2,
+      "id": "claude_cowork_multi_agent"
     },
     {
       "label": "Anthropic Latest Features & Releases",
@@ -770,8 +560,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_latest_features",
-      "community": 0
+      "community": 2,
+      "id": "claude_latest_features"
     },
     {
       "label": "Claude Code Customisation (CLAUDE.md, hooks, settings)",
@@ -782,8 +572,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_customisation",
-      "community": 0
+      "community": 2,
+      "id": "claude_customisation"
     },
     {
       "label": "Claude Code Setup & Basics",
@@ -794,8 +584,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_setup_basics",
-      "community": 0
+      "community": 2,
+      "id": "claude_setup_basics"
     },
     {
       "label": "Claude Code Daily Workflow Playbook",
@@ -806,8 +596,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_daily_workflow",
-      "community": 18
+      "community": 21,
+      "id": "claude_daily_workflow"
     },
     {
       "label": "Claude API & Spring AI Integration",
@@ -818,8 +608,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_api_spring_ai",
-      "community": 0
+      "community": 2,
+      "id": "claude_api_spring_ai"
     },
     {
       "label": "Claude Code Advanced Workflows (multi-file, plan mode, subagents)",
@@ -830,8 +620,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_advanced_workflows",
-      "community": 0
+      "community": 2,
+      "id": "claude_advanced_workflows"
     },
     {
       "label": "Claude in CI/CD & Automation",
@@ -842,8 +632,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_cicd_automation",
-      "community": 0
+      "community": 2,
+      "id": "claude_cicd_automation"
     },
     {
       "label": "GitHub Copilot for Pull Requests",
@@ -854,8 +644,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "copilot_pull_requests",
-      "community": 0
+      "community": 2,
+      "id": "copilot_pull_requests"
     },
     {
       "label": "GitHub Copilot Advanced Patterns & Tips",
@@ -866,8 +656,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "copilot_advanced_patterns",
-      "community": 0
+      "community": 2,
+      "id": "copilot_advanced_patterns"
     },
     {
       "label": "GitHub Copilot Daily Workflow Playbook",
@@ -878,8 +668,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "copilot_daily_workflow",
-      "community": 0
+      "community": 2,
+      "id": "copilot_daily_workflow"
     },
     {
       "label": "GitHub Copilot Chat & Edits",
@@ -890,8 +680,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "copilot_chat_edits",
-      "community": 0
+      "community": 2,
+      "id": "copilot_chat_edits"
     },
     {
       "label": "GitHub Copilot Overview",
@@ -902,8 +692,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "copilot_readme",
-      "community": 0
+      "community": 2,
+      "id": "copilot_readme"
     },
     {
       "label": "GitHub Copilot CLI",
@@ -914,8 +704,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "copilot_cli",
-      "community": 6
+      "community": 6,
+      "id": "copilot_cli"
     },
     {
       "label": "GitHub Copilot Code Completion Mastery",
@@ -926,8 +716,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "copilot_code_completion",
-      "community": 6
+      "community": 6,
+      "id": "copilot_code_completion"
     },
     {
       "label": "GitHub Copilot Setup & Configuration",
@@ -938,8 +728,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "copilot_setup",
-      "community": 6
+      "community": 6,
+      "id": "copilot_setup"
     },
     {
       "label": "Google AI Studio & Vertex AI",
@@ -950,8 +740,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gemini_google_ai_studio",
-      "community": 6
+      "community": 6,
+      "id": "gemini_google_ai_studio"
     },
     {
       "label": "Gemini in IDE",
@@ -962,8 +752,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gemini_in_ide",
-      "community": 6
+      "community": 6,
+      "id": "gemini_in_ide"
     },
     {
       "label": "Gemini Advanced Features",
@@ -974,8 +764,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gemini_advanced_features",
-      "community": 6
+      "community": 6,
+      "id": "gemini_advanced_features"
     },
     {
       "label": "Gemini Daily Workflow Playbook",
@@ -986,8 +776,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gemini_daily_workflow",
-      "community": 19
+      "community": 22,
+      "id": "gemini_daily_workflow"
     },
     {
       "label": "Google Gemini AI Tools Overview",
@@ -998,8 +788,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gemini_readme",
-      "community": 6
+      "community": 6,
+      "id": "gemini_readme"
     },
     {
       "label": "Gemini Model Families (Ultra, Pro, Flash, Nano)",
@@ -1010,8 +800,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gemini_models_capabilities",
-      "community": 6
+      "community": 6,
+      "id": "gemini_models_capabilities"
     },
     {
       "label": "Gemini for Cloud & DevOps",
@@ -1022,8 +812,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gemini_cloud_devops",
-      "community": 6
+      "community": 6,
+      "id": "gemini_cloud_devops"
     },
     {
       "label": "Gemini API & SDK",
@@ -1034,8 +824,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gemini_api_sdk",
-      "community": 6
+      "community": 6,
+      "id": "gemini_api_sdk"
     },
     {
       "label": "Agentic AI Capstone \u2014 Full Production Agent",
@@ -1046,8 +836,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_capstone",
-      "community": 5
+      "community": 5,
+      "id": "agentic_capstone"
     },
     {
       "label": "LangChain4j Java Agents",
@@ -1058,8 +848,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_langchain4j",
-      "community": 5
+      "community": 5,
+      "id": "agentic_langchain4j"
     },
     {
       "label": "Project: Code Review Agent",
@@ -1070,8 +860,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_code_review_project",
-      "community": 5
+      "community": 5,
+      "id": "agentic_code_review_project"
     },
     {
       "label": "Project: Customer Support System",
@@ -1082,8 +872,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_customer_support_project",
-      "community": 5
+      "community": 5,
+      "id": "agentic_customer_support_project"
     },
     {
       "label": "Project: Data Analysis Agent",
@@ -1094,8 +884,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_data_analysis_project",
-      "community": 5
+      "community": 5,
+      "id": "agentic_data_analysis_project"
     },
     {
       "label": "Model Context Protocol (MCP) \u2014 Universal Tool Integration",
@@ -1106,8 +896,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_mcp",
-      "community": 5
+      "community": 5,
+      "id": "agentic_mcp"
     },
     {
       "label": "Spring AI Agents in Production",
@@ -1118,8 +908,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_spring_ai_production",
-      "community": 5
+      "community": 5,
+      "id": "agentic_spring_ai_production"
     },
     {
       "label": "Agent Memory & State Management",
@@ -1130,8 +920,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_memory_state",
-      "community": 5
+      "community": 5,
+      "id": "agentic_memory_state"
     },
     {
       "label": "RAG-Powered Agents",
@@ -1142,8 +932,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_rag_agents",
-      "community": 5
+      "community": 5,
+      "id": "agentic_rag_agents"
     },
     {
       "label": "Python Agents with LangGraph",
@@ -1154,8 +944,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_langgraph_python",
-      "community": 5
+      "community": 5,
+      "id": "agentic_langgraph_python"
     },
     {
       "label": "Custom Tool Development for Agents",
@@ -1166,8 +956,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_custom_tools",
-      "community": 5
+      "community": 5,
+      "id": "agentic_custom_tools"
     },
     {
       "label": "Project: E-Commerce Agent",
@@ -1178,8 +968,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_ecommerce_project",
-      "community": 8
+      "community": 8,
+      "id": "agentic_ecommerce_project"
     },
     {
       "label": "Human-in-the-Loop & Guardrails",
@@ -1190,8 +980,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_hitl_guardrails",
-      "community": 8
+      "community": 8,
+      "id": "agentic_hitl_guardrails"
     },
     {
       "label": "LangGraph Multi-Agent Workflows",
@@ -1202,8 +992,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_langgraph_multi_agent",
-      "community": 8
+      "community": 8,
+      "id": "agentic_langgraph_multi_agent"
     },
     {
       "label": "Project: DevOps Agent",
@@ -1214,8 +1004,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_devops_project",
-      "community": 8
+      "community": 8,
+      "id": "agentic_devops_project"
     },
     {
       "label": "Production Agent Architecture (scaling, cost, reliability)",
@@ -1226,8 +1016,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_production_arch",
-      "community": 8
+      "community": 8,
+      "id": "agentic_production_arch"
     },
     {
       "label": "Project: Research Assistant Agent",
@@ -1238,8 +1028,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_research_assistant",
-      "community": 8
+      "community": 8,
+      "id": "agentic_research_assistant"
     },
     {
       "label": "CrewAI Role-Based Agent Teams",
@@ -1250,8 +1040,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_crewai",
-      "community": 8
+      "community": 8,
+      "id": "agentic_crewai"
     },
     {
       "label": "Agentic AI Architecture Deep Dive (ReAct, Plan-Execute, Patterns)",
@@ -1262,8 +1052,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_architecture_deepdive",
-      "community": 8
+      "community": 8,
+      "id": "agentic_architecture_deepdive"
     },
     {
       "label": "Project: Document Processing Agent",
@@ -1274,8 +1064,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_doc_processing_project",
-      "community": 20
+      "community": 23,
+      "id": "agentic_doc_processing_project"
     },
     {
       "label": "Multi-Agent Orchestration (Supervisor, Swarm, Hierarchical)",
@@ -1286,8 +1076,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agentic_multi_agent_orchestration",
-      "community": 8
+      "community": 8,
+      "id": "agentic_multi_agent_orchestration"
     },
     {
       "label": "Distributed Tracing & Observability (OTel, Jaeger, Four Golden Signals)",
@@ -1298,8 +1088,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_distributed_tracing",
-      "community": 1
+      "community": 1,
+      "id": "sdplan_distributed_tracing"
     },
     {
       "label": "System Design: Payment System (Idempotency, Double-Entry, Reconciliation)",
@@ -1310,8 +1100,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_payment_system",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_payment_system"
     },
     {
       "label": "System Design: Search & Typeahead (Inverted Index, Trie, Elasticsearch)",
@@ -1322,8 +1112,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_search_typeahead",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_search_typeahead"
     },
     {
       "label": "System Design: Video Streaming (HLS, Transcoding, Adaptive Bitrate)",
@@ -1334,8 +1124,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_video_streaming",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_video_streaming"
     },
     {
       "label": "System Design: URL Shortener (Base62, Redis, CDN)",
@@ -1346,8 +1136,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_url_shortener",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_url_shortener"
     },
     {
       "label": "Circuit Breakers & Resilience Patterns (Resilience4j)",
@@ -1358,8 +1148,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_circuit_breakers",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_circuit_breakers"
     },
     {
       "label": "System Design: Ride-Sharing (Geohash, WebSockets, Trip State Machine)",
@@ -1370,8 +1160,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_ride_sharing",
-      "community": 1
+      "community": 1,
+      "id": "sdplan_ride_sharing"
     },
     {
       "label": "CDN, Edge Caching & Global Distribution",
@@ -1382,8 +1172,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_cdn_edge",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_cdn_edge"
     },
     {
       "label": "Phase 2 Week 2 Capstone & Review",
@@ -1394,8 +1184,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_week2_capstone",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_week2_capstone"
     },
     {
       "label": "Phase 2 Capstone & Interview Prep (Framework, Trade-offs)",
@@ -1406,8 +1196,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_phase2_capstone",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_phase2_capstone"
     },
     {
       "label": "Database Replication & Sharding (Primary-Replica, ShardingSphere)",
@@ -1418,8 +1208,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_db_replication_sharding",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_db_replication_sharding"
     },
     {
       "label": "System Design: Social Media Feed (Fan-out Write vs Read, Redis)",
@@ -1430,8 +1220,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdplan_social_media_feed",
-      "community": 7
+      "community": 7,
+      "id": "sdplan_social_media_feed"
     },
     {
       "label": "Distributed Systems Fundamentals (CAP, Raft, Sagas)",
@@ -1442,8 +1232,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_distributed_systems",
-      "community": 4
+      "community": 9,
+      "id": "plan_distributed_systems"
     },
     {
       "label": "LLM Memory & Conversation State",
@@ -1454,8 +1244,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_llm_memory",
-      "community": 1
+      "community": 1,
+      "id": "plan_llm_memory"
     },
     {
       "label": "Consistent Hashing & Data Partitioning (Ring, VNodes)",
@@ -1466,8 +1256,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_consistent_hashing",
-      "community": 4
+      "community": 9,
+      "id": "plan_consistent_hashing"
     },
     {
       "label": "RAG \u2014 Retrieval-Augmented Generation (Ingest, Retrieve, Augment, Generate)",
@@ -1478,8 +1268,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_rag",
-      "community": 1
+      "community": 1,
+      "id": "plan_rag"
     },
     {
       "label": "LLM APIs & SDKs (Spring AI, Streaming, Retries)",
@@ -1490,8 +1280,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_llm_apis_sdks",
-      "community": 1
+      "community": 1,
+      "id": "plan_llm_apis_sdks"
     },
     {
       "label": "Rate Limiting, Backpressure & Load Shedding (Token Bucket)",
@@ -1502,8 +1292,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_rate_limiting",
-      "community": 4
+      "community": 9,
+      "id": "plan_rate_limiting"
     },
     {
       "label": "Caching Strategies (Redis, Cache-Aside, Write-Through, Stampede)",
@@ -1514,8 +1304,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_caching",
-      "community": 4
+      "community": 1,
+      "id": "plan_caching"
     },
     {
       "label": "LLM Tool Use & Function Calling (@Tool, Multi-Step)",
@@ -1526,8 +1316,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_tool_calling",
-      "community": 1
+      "community": 1,
+      "id": "plan_tool_calling"
     },
     {
       "label": "Scalability Fundamentals (Horizontal Scaling, Load Balancing, Stateless Design)",
@@ -1538,8 +1328,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_scalability",
-      "community": 4
+      "community": 1,
+      "id": "plan_scalability"
     },
     {
       "label": "Phase 1 Capstone & Review (Full AI System Architecture)",
@@ -1550,8 +1340,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_phase1_capstone",
-      "community": 4
+      "community": 1,
+      "id": "plan_phase1_capstone"
     },
     {
       "label": "LLM Security & Prompt Injection Defense (OWASP LLM Top 10)",
@@ -1562,8 +1352,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_llm_security",
-      "community": 1
+      "community": 1,
+      "id": "plan_llm_security"
     },
     {
       "label": "LLM Observability & Evaluation (OTel Tracing, LLM-as-Judge)",
@@ -1574,8 +1364,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_llm_observability",
-      "community": 1
+      "community": 1,
+      "id": "plan_llm_observability"
     },
     {
       "label": "Embeddings & Vector Search (pgvector, HNSW, Semantic Search)",
@@ -1586,8 +1376,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_embeddings_vector_search",
-      "community": 1
+      "community": 1,
+      "id": "plan_embeddings_vector_search"
     },
     {
       "label": "Production LLM Architecture & Cost Optimisation (Model Routing, Semantic Cache)",
@@ -1598,8 +1388,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_production_llm_arch",
-      "community": 4
+      "community": 1,
+      "id": "plan_production_llm_arch"
     },
     {
       "label": "API Design (REST, Versioning, Rate Limiting, Idempotency)",
@@ -1610,8 +1400,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_api_design",
-      "community": 4
+      "community": 9,
+      "id": "plan_api_design"
     },
     {
       "label": "Message Queues & Event-Driven Architecture (Kafka, CQRS, Event Sourcing)",
@@ -1622,8 +1412,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_message_queues",
-      "community": 4
+      "community": 9,
+      "id": "plan_message_queues"
     },
     {
       "label": "Structured Outputs & Output Parsing (BeanOutputConverter, Schema Enforcement)",
@@ -1634,8 +1424,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_structured_outputs",
-      "community": 1
+      "community": 1,
+      "id": "plan_structured_outputs"
     },
     {
       "label": "LLM Agents & Multi-Step Reasoning (ReAct Loop, Spring AI Agent)",
@@ -1646,8 +1436,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_llm_agents",
-      "community": 1
+      "community": 1,
+      "id": "plan_llm_agents"
     },
     {
       "label": "Database Design & Indexing (Schema, EXPLAIN, Composite Indexes)",
@@ -1658,8 +1448,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_db_design_indexing",
-      "community": 4
+      "community": 1,
+      "id": "plan_db_design_indexing"
     },
     {
       "label": "Prompt Engineering (System Prompts, Few-Shot, JSON Mode, Chain-of-Thought)",
@@ -1670,8 +1460,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_prompt_engineering",
-      "community": 1
+      "community": 1,
+      "id": "plan_prompt_engineering"
     },
     {
       "label": "Fine-Tuning & Model Customisation (LoRA, JSONL, Dataset Prep)",
@@ -1682,8 +1472,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_fine_tuning",
-      "community": 4
+      "community": 1,
+      "id": "plan_fine_tuning"
     },
     {
       "label": "Multi-Agent Systems & Orchestration (Orchestrator-Worker, Fan-Out)",
@@ -1694,8 +1484,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_multi_agent_systems",
-      "community": 1
+      "community": 1,
+      "id": "plan_multi_agent_systems"
     },
     {
       "label": "Service Discovery & Load Balancing (Eureka, Kubernetes DNS)",
@@ -1706,8 +1496,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_service_discovery",
-      "community": 4
+      "community": 9,
+      "id": "plan_service_discovery"
     },
     {
       "label": "Generative AI Fundamentals (LLMs, Tokens, Inference, Context Window)",
@@ -1718,107 +1508,599 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_gen_ai_fundamentals",
-      "community": 1
+      "community": 1,
+      "id": "plan_gen_ai_fundamentals"
+    },
+    {
+      "label": "Daily Tech Upskill Project",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_daily_tech_upskill",
+      "community": 3
+    },
+    {
+      "label": "Phase 3 \u2014 Microservices & Cloud-Native",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_phase3_microservices",
+      "community": 3
+    },
+    {
+      "label": "CLAUDE.md Repository Instructions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_repo_instructions",
+      "community": 3
+    },
+    {
+      "label": "Knowledge Graph (graphify RAG) Integration",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_md_knowledge_graph",
+      "community": 3
+    },
+    {
+      "label": "OpenAI GPT-5o Native Code Execution Launch",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_gpt5o_launch",
+      "community": 0
+    },
+    {
+      "label": "Anthropic Claude Sonnet 4.7 \u2014 Speed + Reasoning",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_claude_sonnet47",
+      "community": 0
+    },
+    {
+      "label": "Mistral Codestral 2.0 \u2014 Polyglot Code Model",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_mistral_codestral2",
+      "community": 0
+    },
+    {
+      "label": "Meta Llama 4 Scout \u2014 17B MoE 10M Token Context",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 2. Open-Source Highlights",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_llama4_scout",
+      "community": 0
+    },
+    {
+      "label": "Microsoft Phi-4-Mini \u2014 3.8B Edge Reasoning Specialist",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 2. Open-Source Highlights",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_phi4_mini",
+      "community": 0
+    },
+    {
+      "label": "Microsoft Copilot Studio Visual Agent Workflow Designer",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 3. Agentic AI & Tooling",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_copilot_studio_visual",
+      "community": 0
+    },
+    {
+      "label": "LangChain LangGraph Cloud \u2014 Managed Agent Runtime",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 3. Agentic AI & Tooling",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_langgraph_cloud",
+      "community": 0
+    },
+    {
+      "label": "Apple Acquires Reka AI for $1.8B",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 4. Funding & Business",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_apple_reka_acquisition",
+      "community": 0
+    },
+    {
+      "label": "Cohere Closes $500M Series E at $5.2B Valuation",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 4. Funding & Business",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_cohere_500m",
+      "community": 0
+    },
+    {
+      "label": "Scaling Laws Flatten Above 2T Parameters \u2014 Epoch AI Research",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 5. Research & Breakthroughs",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_scaling_laws_2t",
+      "community": 0
+    },
+    {
+      "label": "Anthropic Self-Play Reasoning Research",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 5. Research & Breakthroughs",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_self_play_reasoning",
+      "community": 0
+    },
+    {
+      "label": "Stanford TAOM \u2014 Theory of Mind for Agents Benchmark",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 5. Research & Breakthroughs",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_taom_benchmark",
+      "community": 0
+    },
+    {
+      "label": "EU AI Liability Directive \u2014 Passed",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 6. Regulation & Policy",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_eu_ai_liability",
+      "community": 0
+    },
+    {
+      "label": "US Senate AI Accountability Act \u2014 Committee Vote",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 6. Regulation & Policy",
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_us_senate_ai_act",
+      "community": 0
+    },
+    {
+      "label": "AI Daily News 2026-04-13",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "news_13_ai_news_digest",
+      "community": 0
+    },
+    {
+      "label": "Meta Llama 4 Maverick \u2014 Open-Source Flagship (400B MoE)",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_llama4_maverick",
+      "community": 0
+    },
+    {
+      "label": "Google Gemini 3.1 Flash 002 \u2014 Ultra-Low Latency",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_gemini31_flash002",
+      "community": 0
+    },
+    {
+      "label": "xAI Grok 3 Enterprise \u2014 Reasoning at Scale",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_grok3_enterprise",
+      "community": 0
+    },
+    {
+      "label": "Mistral Magistral \u2014 24B Reasoning Specialist",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 2. Open-Source Highlights",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_mistral_magistral",
+      "community": 0
+    },
+    {
+      "label": "DeepSeek V4 \u2014 $5.2M Training Run Frontier Performance",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 2. Open-Source Highlights",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_deepseek_v4",
+      "community": 0
+    },
+    {
+      "label": "NVIDIA Project Digits \u2014 Ships to Developer Wave",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 3. Hardware & Infrastructure",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_nvidia_project_digits",
+      "community": 0
+    },
+    {
+      "label": "Groq LPU Gen 2 \u2014 1500 Tokens/Second",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 3. Hardware & Infrastructure",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_groq_lpu_gen2",
+      "community": 0
+    },
+    {
+      "label": "Kubernetes AI Operator (KAIO) \u2014 Goes GA",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 4. Agentic AI & Tooling",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_kaio_ga",
+      "community": 0
+    },
+    {
+      "label": "Anthropic Computer Use 2.0 \u2014 Autonomous Desktop Navigation",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 4. Agentic AI & Tooling",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_computer_use_20",
+      "community": 0
+    },
+    {
+      "label": "LangChain4j 0.40 \u2014 Spring Boot 3.4 Native Integration",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 4. Agentic AI & Tooling",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_langchain4j_040",
+      "community": 0
+    },
+    {
+      "label": "Perplexity AI \u2014 $1B Series E at $14B Valuation",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 5. Funding & Business",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_perplexity_1b",
+      "community": 0
+    },
+    {
+      "label": "Reasoning Models \u2014 Diminishing Returns on Chain-of-Thought Length",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 6. Research & Breakthroughs",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_cot_diminishing_returns",
+      "community": 0
+    },
+    {
+      "label": "Mixture of Experts Routing Interpretability Research",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 6. Research & Breakthroughs",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_moe_routing_interpretability",
+      "community": 0
+    },
+    {
+      "label": "Google DeepMind AgentFormer \u2014 Working Memory Architecture",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 6. Research & Breakthroughs",
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_agentformer",
+      "community": 0
+    },
+    {
+      "label": "AI Daily News 2026-04-14",
+      "file_type": "document",
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "news_14_ai_news_digest",
+      "community": 0
+    },
+    {
+      "label": "Knowledge Graph Report (graphify) \u2014 128 Nodes 21 Communities",
+      "file_type": "document",
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-04-12",
+      "author": null,
+      "contributor": null,
+      "id": "graph_report_summary",
+      "community": 3
+    },
+    {
+      "label": "Microservices Patterns & Decomposition (Day 37)",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-04-13",
+      "author": null,
+      "contributor": null,
+      "id": "plan_microservices_patterns",
+      "community": 3
+    },
+    {
+      "label": "DDD Bounded Contexts & Service Decomposition",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "## 3. Decomposition Strategies",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_microservices_ddd",
+      "community": 3
+    },
+    {
+      "label": "Saga Pattern (Distributed Transactions \u2014 Choreography & Orchestration)",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "### 6.2 Saga Pattern",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_microservices_saga",
+      "community": 3
+    },
+    {
+      "label": "Strangler Fig Pattern (Monolith Migration)",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "### 3.3 Strangler Fig Pattern",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_microservices_strangler_fig",
+      "community": 3
+    },
+    {
+      "label": "Sidecar Pattern (Cross-Cutting Concerns)",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "### 6.1 Sidecar Pattern",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_microservices_sidecar",
+      "community": 3
+    },
+    {
+      "label": "Circuit Breaker with Resilience4j (Microservices)",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "### 6.3 Circuit Breaker",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_microservices_circuit_breaker",
+      "community": 3
+    },
+    {
+      "label": "Database Per Service \u2014 Data Ownership Pattern",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "## 5. Data Ownership",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_microservices_db_per_service",
+      "community": 3
+    },
+    {
+      "label": "Sync vs Async Communication (REST vs Kafka in Microservices)",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "## 4. Communication Patterns",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_microservices_sync_async",
+      "community": 3
+    },
+    {
+      "label": "API Gateway & BFF Pattern (Day 38)",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-04-14",
+      "author": null,
+      "contributor": null,
+      "id": "plan_api_gateway_bff",
+      "community": 3
+    },
+    {
+      "label": "Spring Cloud Gateway \u2014 Route Config, JWT Auth, Rate Limiting",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "## 3. Spring Cloud Gateway",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_spring_cloud_gateway",
+      "community": 3
+    },
+    {
+      "label": "Backend for Frontend (BFF) Pattern \u2014 Per-Client API Layer",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "## 4. Backend for Frontend (BFF) Pattern",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_bff_pattern",
+      "community": 3
+    },
+    {
+      "label": "JWT Authentication Filter in API Gateway",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "### 3.3 JWT Authentication Filter",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_gateway_jwt_auth",
+      "community": 3
+    },
+    {
+      "label": "Rate Limiting with Redis in API Gateway",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "### 3.4 Rate Limiting with Redis",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_gateway_rate_limiting",
+      "community": 3
+    },
+    {
+      "label": "Distributed Tracing Propagation via Gateway (Micrometer/Zipkin)",
+      "file_type": "document",
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "### 6.3 Distributed Tracing Propagation",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "plan_gateway_distributed_tracing",
+      "community": 3
     }
   ],
   "links": [
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_daily_tech_upskill",
-      "_tgt": "readme_phase1_gen_ai",
-      "source": "readme_daily_tech_upskill",
-      "target": "readme_phase1_gen_ai"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_daily_tech_upskill",
-      "_tgt": "readme_phase2_system_design",
-      "source": "readme_daily_tech_upskill",
-      "target": "readme_phase2_system_design"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_daily_tech_upskill",
-      "_tgt": "readme_phase3_microservices",
-      "source": "readme_daily_tech_upskill",
-      "target": "readme_phase3_microservices"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_daily_tech_upskill",
-      "_tgt": "readme_phase4_devops",
-      "source": "readme_daily_tech_upskill",
-      "target": "readme_phase4_devops"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_daily_tech_upskill",
-      "_tgt": "readme_phase5_emerging",
-      "source": "readme_daily_tech_upskill",
-      "target": "readme_phase5_emerging"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_daily_tech_upskill",
-      "_tgt": "prompt_lib_overview",
-      "source": "readme_daily_tech_upskill",
-      "target": "prompt_lib_overview"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_daily_tech_upskill",
-      "_tgt": "ai_tools_dir_llm_providers",
-      "source": "readme_daily_tech_upskill",
-      "target": "ai_tools_dir_llm_providers"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "readme_daily_tech_upskill",
-      "_tgt": "ai_blogs_newsletters",
-      "source": "readme_daily_tech_upskill",
-      "target": "ai_blogs_newsletters"
-    },
     {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
@@ -1850,8 +2132,8 @@
       "source_file": "ai-tools-directory.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "ai_tools_dir_local_llm",
-      "_tgt": "ai_tools_dir_inference_platforms",
+      "_src": "ai_tools_dir_inference_platforms",
+      "_tgt": "ai_tools_dir_local_llm",
       "source": "ai_tools_dir_inference_platforms",
       "target": "ai_tools_dir_local_llm"
     },
@@ -1958,8 +2240,8 @@
       "source_file": "ai-daily-news/2026-04/08-ai-news.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "news_08_deepseek_v4",
-      "_tgt": "news_10_gemma4_opensource",
+      "_src": "news_10_gemma4_opensource",
+      "_tgt": "news_08_deepseek_v4",
       "source": "news_10_gemma4_opensource",
       "target": "news_08_deepseek_v4"
     },
@@ -2090,8 +2372,8 @@
       "source_file": "prompt-library/ultimate-ai-prompt-book.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "prompt_lib_ultimate_book",
-      "_tgt": "prompt_lib_overview",
+      "_src": "prompt_lib_overview",
+      "_tgt": "prompt_lib_ultimate_book",
       "source": "prompt_lib_overview",
       "target": "prompt_lib_ultimate_book"
     },
@@ -2114,8 +2396,8 @@
       "source_file": "prompt-library/08-cicd-github-actions.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "prompt_lib_cicd",
-      "_tgt": "prompt_lib_terraform",
+      "_src": "prompt_lib_terraform",
+      "_tgt": "prompt_lib_cicd",
       "source": "prompt_lib_terraform",
       "target": "prompt_lib_cicd"
     },
@@ -2186,8 +2468,8 @@
       "source_file": "ai-tools/anthropic-claude/05-claude-code-in-ide.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "claude_code_in_ide",
-      "_tgt": "jetbrains_ai_mastery",
+      "_src": "jetbrains_ai_mastery",
+      "_tgt": "claude_code_in_ide",
       "source": "jetbrains_ai_mastery",
       "target": "claude_code_in_ide"
     },
@@ -2198,8 +2480,8 @@
       "source_file": "ai-tools/anthropic-claude/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "claude_readme",
-      "_tgt": "claude_skills_slash_commands",
+      "_src": "claude_skills_slash_commands",
+      "_tgt": "claude_readme",
       "source": "claude_skills_slash_commands",
       "target": "claude_readme"
     },
@@ -2210,8 +2492,8 @@
       "source_file": "ai-tools/anthropic-claude/04-claude-code-customisation.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "claude_customisation",
-      "_tgt": "claude_skills_slash_commands",
+      "_src": "claude_skills_slash_commands",
+      "_tgt": "claude_customisation",
       "source": "claude_skills_slash_commands",
       "target": "claude_customisation"
     },
@@ -2222,8 +2504,8 @@
       "source_file": "ai-tools/anthropic-claude/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "claude_readme",
-      "_tgt": "claude_code_in_ide",
+      "_src": "claude_code_in_ide",
+      "_tgt": "claude_readme",
       "source": "claude_code_in_ide",
       "target": "claude_readme"
     },
@@ -2246,8 +2528,8 @@
       "source_file": "ai-tools/anthropic-claude/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "claude_readme",
-      "_tgt": "claude_models_capabilities",
+      "_src": "claude_models_capabilities",
+      "_tgt": "claude_readme",
       "source": "claude_models_capabilities",
       "target": "claude_readme"
     },
@@ -2258,8 +2540,8 @@
       "source_file": "ai-tools/anthropic-claude/06-claude-api-and-spring-ai.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "claude_api_spring_ai",
-      "_tgt": "claude_models_capabilities",
+      "_src": "claude_models_capabilities",
+      "_tgt": "claude_api_spring_ai",
       "source": "claude_models_capabilities",
       "target": "claude_api_spring_ai"
     },
@@ -2270,8 +2552,8 @@
       "source_file": "ai-tools/anthropic-claude/11-anthropic-latest-features-and-releases.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "claude_latest_features",
-      "_tgt": "claude_models_capabilities",
+      "_src": "claude_models_capabilities",
+      "_tgt": "claude_latest_features",
       "source": "claude_models_capabilities",
       "target": "claude_latest_features"
     },
@@ -2342,8 +2624,8 @@
       "source_file": "ai-tools/anthropic-claude/03-claude-code-advanced-workflows.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "claude_advanced_workflows",
-      "_tgt": "claude_cowork_multi_agent",
+      "_src": "claude_cowork_multi_agent",
+      "_tgt": "claude_advanced_workflows",
       "source": "claude_cowork_multi_agent",
       "target": "claude_advanced_workflows"
     },
@@ -2378,8 +2660,8 @@
       "source_file": "ai-tools/github-copilot/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "copilot_readme",
-      "_tgt": "copilot_pull_requests",
+      "_src": "copilot_pull_requests",
+      "_tgt": "copilot_readme",
       "source": "copilot_pull_requests",
       "target": "copilot_readme"
     },
@@ -2390,8 +2672,8 @@
       "source_file": "ai-tools/github-copilot/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "copilot_readme",
-      "_tgt": "copilot_advanced_patterns",
+      "_src": "copilot_advanced_patterns",
+      "_tgt": "copilot_readme",
       "source": "copilot_advanced_patterns",
       "target": "copilot_readme"
     },
@@ -2402,8 +2684,8 @@
       "source_file": "ai-tools/github-copilot/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "copilot_readme",
-      "_tgt": "copilot_daily_workflow",
+      "_src": "copilot_daily_workflow",
+      "_tgt": "copilot_readme",
       "source": "copilot_daily_workflow",
       "target": "copilot_readme"
     },
@@ -2414,8 +2696,8 @@
       "source_file": "ai-tools/github-copilot/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "copilot_readme",
-      "_tgt": "copilot_chat_edits",
+      "_src": "copilot_chat_edits",
+      "_tgt": "copilot_readme",
       "source": "copilot_chat_edits",
       "target": "copilot_readme"
     },
@@ -2426,8 +2708,8 @@
       "source_file": "ai-tools/github-copilot/01-copilot-setup-and-configuration.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "copilot_setup",
-      "_tgt": "copilot_cli",
+      "_src": "copilot_cli",
+      "_tgt": "copilot_setup",
       "source": "copilot_cli",
       "target": "copilot_setup"
     },
@@ -2438,8 +2720,8 @@
       "source_file": "ai-tools/github-copilot/01-copilot-setup-and-configuration.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "copilot_setup",
-      "_tgt": "copilot_code_completion",
+      "_src": "copilot_code_completion",
+      "_tgt": "copilot_setup",
       "source": "copilot_code_completion",
       "target": "copilot_setup"
     },
@@ -2450,8 +2732,8 @@
       "source_file": "ai-tools/google-gemini/02-gemini-in-ide.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "gemini_in_ide",
-      "_tgt": "copilot_code_completion",
+      "_src": "copilot_code_completion",
+      "_tgt": "gemini_in_ide",
       "source": "copilot_code_completion",
       "target": "gemini_in_ide"
     },
@@ -2462,8 +2744,8 @@
       "source_file": "ai-tools/google-gemini/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "gemini_readme",
-      "_tgt": "gemini_google_ai_studio",
+      "_src": "gemini_google_ai_studio",
+      "_tgt": "gemini_readme",
       "source": "gemini_google_ai_studio",
       "target": "gemini_readme"
     },
@@ -2474,8 +2756,8 @@
       "source_file": "ai-tools/google-gemini/05-gemini-for-cloud-and-devops.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "gemini_cloud_devops",
-      "_tgt": "gemini_google_ai_studio",
+      "_src": "gemini_google_ai_studio",
+      "_tgt": "gemini_cloud_devops",
       "source": "gemini_google_ai_studio",
       "target": "gemini_cloud_devops"
     },
@@ -2486,8 +2768,8 @@
       "source_file": "ai-tools/google-gemini/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "gemini_readme",
-      "_tgt": "gemini_in_ide",
+      "_src": "gemini_in_ide",
+      "_tgt": "gemini_readme",
       "source": "gemini_in_ide",
       "target": "gemini_readme"
     },
@@ -2498,8 +2780,8 @@
       "source_file": "ai-tools/google-gemini/README.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "gemini_readme",
-      "_tgt": "gemini_advanced_features",
+      "_src": "gemini_advanced_features",
+      "_tgt": "gemini_readme",
       "source": "gemini_advanced_features",
       "target": "gemini_readme"
     },
@@ -2546,8 +2828,8 @@
       "source_file": "ai-tools/google-gemini/03-gemini-api-and-sdk.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "gemini_api_sdk",
-      "_tgt": "gemini_models_capabilities",
+      "_src": "gemini_models_capabilities",
+      "_tgt": "gemini_api_sdk",
       "source": "gemini_models_capabilities",
       "target": "gemini_api_sdk"
     },
@@ -2594,8 +2876,8 @@
       "source_file": "agentic-ai/13-model-context-protocol-mcp.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_mcp",
-      "_tgt": "agentic_langchain4j",
+      "_src": "agentic_langchain4j",
+      "_tgt": "agentic_mcp",
       "source": "agentic_langchain4j",
       "target": "agentic_mcp"
     },
@@ -2606,8 +2888,8 @@
       "source_file": "agentic-ai/04-python-agents-langgraph.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_langgraph_python",
-      "_tgt": "agentic_langchain4j",
+      "_src": "agentic_langchain4j",
+      "_tgt": "agentic_langgraph_python",
       "source": "agentic_langchain4j",
       "target": "agentic_langgraph_python"
     },
@@ -2618,8 +2900,8 @@
       "source_file": "agentic-ai/02-spring-ai-agents-production.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_spring_ai_production",
-      "_tgt": "agentic_langchain4j",
+      "_src": "agentic_langchain4j",
+      "_tgt": "agentic_spring_ai_production",
       "source": "agentic_langchain4j",
       "target": "agentic_spring_ai_production"
     },
@@ -2630,8 +2912,8 @@
       "source_file": "agentic-ai/16-project-code-review-agent.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_code_review_project",
-      "_tgt": "agentic_langchain4j",
+      "_src": "agentic_langchain4j",
+      "_tgt": "agentic_code_review_project",
       "source": "agentic_langchain4j",
       "target": "agentic_code_review_project"
     },
@@ -2690,8 +2972,8 @@
       "source_file": "agentic-ai/12-rag-powered-agents.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_rag_agents",
-      "_tgt": "agentic_memory_state",
+      "_src": "agentic_memory_state",
+      "_tgt": "agentic_rag_agents",
       "source": "agentic_memory_state",
       "target": "agentic_rag_agents"
     },
@@ -2702,8 +2984,8 @@
       "source_file": "agentic-ai/05-custom-tool-development.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_custom_tools",
-      "_tgt": "agentic_memory_state",
+      "_src": "agentic_memory_state",
+      "_tgt": "agentic_custom_tools",
       "source": "agentic_memory_state",
       "target": "agentic_custom_tools"
     },
@@ -2738,8 +3020,8 @@
       "source_file": "agentic-ai/18-project-devops-agent.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_devops_project",
-      "_tgt": "agentic_hitl_guardrails",
+      "_src": "agentic_hitl_guardrails",
+      "_tgt": "agentic_devops_project",
       "source": "agentic_hitl_guardrails",
       "target": "agentic_devops_project"
     },
@@ -2750,8 +3032,8 @@
       "source_file": "agentic-ai/01-agentic-ai-architecture-deep-dive.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_architecture_deepdive",
-      "_tgt": "agentic_langgraph_multi_agent",
+      "_src": "agentic_langgraph_multi_agent",
+      "_tgt": "agentic_architecture_deepdive",
       "source": "agentic_langgraph_multi_agent",
       "target": "agentic_architecture_deepdive"
     },
@@ -2762,8 +3044,8 @@
       "source_file": "agentic-ai/08-multi-agent-orchestration.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_multi_agent_orchestration",
-      "_tgt": "agentic_langgraph_multi_agent",
+      "_src": "agentic_langgraph_multi_agent",
+      "_tgt": "agentic_multi_agent_orchestration",
       "source": "agentic_langgraph_multi_agent",
       "target": "agentic_multi_agent_orchestration"
     },
@@ -2798,8 +3080,8 @@
       "source_file": "agentic-ai/08-multi-agent-orchestration.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "agentic_multi_agent_orchestration",
-      "_tgt": "agentic_crewai",
+      "_src": "agentic_crewai",
+      "_tgt": "agentic_multi_agent_orchestration",
       "source": "agentic_crewai",
       "target": "agentic_multi_agent_orchestration"
     },
@@ -2822,8 +3104,8 @@
       "source_file": "daily-learning-plans/2026-04/08-system-design-ride-sharing.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "sdplan_ride_sharing",
-      "_tgt": "sdplan_distributed_tracing",
+      "_src": "sdplan_distributed_tracing",
+      "_tgt": "sdplan_ride_sharing",
       "source": "sdplan_distributed_tracing",
       "target": "sdplan_ride_sharing"
     },
@@ -2846,8 +3128,8 @@
       "source_file": "daily-learning-plans/2026-03/16-llm-observability-and-evaluation.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_llm_observability",
-      "_tgt": "sdplan_distributed_tracing",
+      "_src": "sdplan_distributed_tracing",
+      "_tgt": "plan_llm_observability",
       "source": "sdplan_distributed_tracing",
       "target": "plan_llm_observability"
     },
@@ -2882,8 +3164,8 @@
       "source_file": "daily-learning-plans/2026-04/12-phase2-capstone-and-interview-prep.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "sdplan_phase2_capstone",
-      "_tgt": "sdplan_payment_system",
+      "_src": "sdplan_payment_system",
+      "_tgt": "sdplan_phase2_capstone",
       "source": "sdplan_payment_system",
       "target": "sdplan_phase2_capstone"
     },
@@ -2954,8 +3236,8 @@
       "source_file": "daily-learning-plans/2026-04/12-phase2-capstone-and-interview-prep.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "sdplan_phase2_capstone",
-      "_tgt": "sdplan_url_shortener",
+      "_src": "sdplan_url_shortener",
+      "_tgt": "sdplan_phase2_capstone",
       "source": "sdplan_url_shortener",
       "target": "sdplan_phase2_capstone"
     },
@@ -2966,8 +3248,8 @@
       "source_file": "daily-learning-plans/2026-04/05-phase2-week2-capstone-and-review.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "sdplan_week2_capstone",
-      "_tgt": "sdplan_circuit_breakers",
+      "_src": "sdplan_circuit_breakers",
+      "_tgt": "sdplan_week2_capstone",
       "source": "sdplan_circuit_breakers",
       "target": "sdplan_week2_capstone"
     },
@@ -2978,8 +3260,8 @@
       "source_file": "daily-learning-plans/2026-04/07-system-design-social-media-feed.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "sdplan_social_media_feed",
-      "_tgt": "sdplan_cdn_edge",
+      "_src": "sdplan_cdn_edge",
+      "_tgt": "sdplan_social_media_feed",
       "source": "sdplan_cdn_edge",
       "target": "sdplan_social_media_feed"
     },
@@ -3002,8 +3284,8 @@
       "source_file": "daily-learning-plans/2026-03/27-api-design.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_api_design",
-      "_tgt": "plan_distributed_systems",
+      "_src": "plan_distributed_systems",
+      "_tgt": "plan_api_design",
       "source": "plan_distributed_systems",
       "target": "plan_api_design"
     },
@@ -3038,8 +3320,8 @@
       "source_file": "daily-learning-plans/2026-03/14-llm-agents-and-multi-step-reasoning.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_llm_agents",
-      "_tgt": "plan_llm_memory",
+      "_src": "plan_llm_memory",
+      "_tgt": "plan_llm_agents",
       "source": "plan_llm_memory",
       "target": "plan_llm_agents"
     },
@@ -3062,8 +3344,8 @@
       "source_file": "daily-learning-plans/2026-03/29-rate-limiting-backpressure-and-load-shedding.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_rate_limiting",
-      "_tgt": "plan_consistent_hashing",
+      "_src": "plan_consistent_hashing",
+      "_tgt": "plan_rate_limiting",
       "source": "plan_consistent_hashing",
       "target": "plan_rate_limiting"
     },
@@ -3110,8 +3392,8 @@
       "source_file": "daily-learning-plans/2026-03/09-prompt-engineering.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_prompt_engineering",
-      "_tgt": "plan_llm_apis_sdks",
+      "_src": "plan_llm_apis_sdks",
+      "_tgt": "plan_prompt_engineering",
       "source": "plan_llm_apis_sdks",
       "target": "plan_prompt_engineering"
     },
@@ -3134,8 +3416,8 @@
       "source_file": "daily-learning-plans/2026-03/24-database-design-and-indexing.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_db_design_indexing",
-      "_tgt": "plan_caching",
+      "_src": "plan_caching",
+      "_tgt": "plan_db_design_indexing",
       "source": "plan_caching",
       "target": "plan_db_design_indexing"
     },
@@ -3158,8 +3440,8 @@
       "source_file": "daily-learning-plans/2026-03/20-production-llm-architecture-and-cost-optimisation.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_production_llm_arch",
-      "_tgt": "plan_caching",
+      "_src": "plan_caching",
+      "_tgt": "plan_production_llm_arch",
       "source": "plan_caching",
       "target": "plan_production_llm_arch"
     },
@@ -3182,8 +3464,8 @@
       "source_file": "daily-learning-plans/2026-03/22-phase1-capstone-and-review.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_phase1_capstone",
-      "_tgt": "plan_scalability",
+      "_src": "plan_scalability",
+      "_tgt": "plan_phase1_capstone",
       "source": "plan_scalability",
       "target": "plan_phase1_capstone"
     },
@@ -3206,8 +3488,8 @@
       "source_file": "daily-learning-plans/2026-03/21-fine-tuning-and-model-customisation.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_fine_tuning",
-      "_tgt": "plan_phase1_capstone",
+      "_src": "plan_phase1_capstone",
+      "_tgt": "plan_fine_tuning",
       "source": "plan_phase1_capstone",
       "target": "plan_fine_tuning"
     },
@@ -3218,8 +3500,8 @@
       "source_file": "daily-learning-plans/2026-03/18-multi-agent-systems-and-orchestration.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_multi_agent_systems",
-      "_tgt": "plan_llm_security",
+      "_src": "plan_llm_security",
+      "_tgt": "plan_multi_agent_systems",
       "source": "plan_llm_security",
       "target": "plan_multi_agent_systems"
     },
@@ -3266,8 +3548,8 @@
       "source_file": "daily-learning-plans/2026-03/26-message-queues-and-event-driven-architecture.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_message_queues",
-      "_tgt": "plan_api_design",
+      "_src": "plan_api_design",
+      "_tgt": "plan_message_queues",
       "source": "plan_api_design",
       "target": "plan_message_queues"
     },
@@ -3302,191 +3584,893 @@
       "source_file": "daily-learning-plans/2026-03/08-generative-ai-fundamentals.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "plan_gen_ai_fundamentals",
-      "_tgt": "plan_prompt_engineering",
+      "_src": "plan_prompt_engineering",
+      "_tgt": "plan_gen_ai_fundamentals",
       "source": "plan_prompt_engineering",
       "target": "plan_gen_ai_fundamentals"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "### Phase 3 \u2014 Microservices & Cloud-Native",
+      "weight": 1.0,
+      "_src": "readme_daily_tech_upskill",
+      "_tgt": "readme_phase3_microservices",
+      "source": "readme_daily_tech_upskill",
+      "target": "readme_phase3_microservices"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "| 2026-04-13 | OpenAI Launches GPT-5o |",
+      "weight": 1.0,
+      "_src": "readme_daily_tech_upskill",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "readme_daily_tech_upskill",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "| 2026-04-14 | Llama 4 Maverick |",
+      "weight": 1.0,
+      "_src": "readme_daily_tech_upskill",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "readme_daily_tech_upskill",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "Check README.md",
+      "weight": 1.0,
+      "_src": "readme_daily_tech_upskill",
+      "_tgt": "claude_md_repo_instructions",
+      "source": "readme_daily_tech_upskill",
+      "target": "claude_md_repo_instructions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": "Graph Report - . (2026-04-12)",
+      "weight": 1.0,
+      "_src": "readme_daily_tech_upskill",
+      "_tgt": "graph_report_summary",
+      "source": "readme_daily_tech_upskill",
+      "target": "graph_report_summary"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "| 2026-04-13 | Microservices Patterns |",
+      "weight": 1.0,
+      "_src": "readme_phase3_microservices",
+      "_tgt": "plan_microservices_patterns",
+      "source": "readme_phase3_microservices",
+      "target": "plan_microservices_patterns"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "| 2026-04-14 | API Gateway & BFF |",
+      "weight": 1.0,
+      "_src": "readme_phase3_microservices",
+      "_tgt": "plan_api_gateway_bff",
+      "source": "readme_phase3_microservices",
+      "target": "plan_api_gateway_bff"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "## Knowledge Graph (graphify RAG)",
+      "weight": 1.0,
+      "_src": "claude_md_repo_instructions",
+      "_tgt": "claude_md_knowledge_graph",
+      "source": "claude_md_repo_instructions",
+      "target": "claude_md_knowledge_graph"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "CLAUDE.md",
+      "source_location": "graphify-out/graph.json",
+      "weight": 1.0,
+      "_src": "claude_md_knowledge_graph",
+      "_tgt": "graph_report_summary",
+      "source": "claude_md_knowledge_graph",
+      "target": "graph_report_summary"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "weight": 1.0,
+      "_src": "news_13_gpt5o_launch",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_gpt5o_launch",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "Both frontier coding model competitors",
+      "weight": 0.85,
+      "_src": "news_13_gpt5o_launch",
+      "_tgt": "news_14_llama4_maverick",
+      "source": "news_13_gpt5o_launch",
+      "target": "news_14_llama4_maverick"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "weight": 1.0,
+      "_src": "news_13_claude_sonnet47",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_claude_sonnet47",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "Claude 4.7 adaptive thinking budget validates diminishing returns research",
+      "weight": 0.8,
+      "_src": "news_13_claude_sonnet47",
+      "_tgt": "news_14_cot_diminishing_returns",
+      "source": "news_13_claude_sonnet47",
+      "target": "news_14_cot_diminishing_returns"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "Computer Use 2.0 falls back to Claude Sonnet 4.7",
+      "weight": 1.0,
+      "_src": "news_13_claude_sonnet47",
+      "_tgt": "news_14_computer_use_20",
+      "source": "news_13_claude_sonnet47",
+      "target": "news_14_computer_use_20"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "weight": 1.0,
+      "_src": "news_13_mistral_codestral2",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_mistral_codestral2",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "Both Mistral open-source models released in same period",
+      "weight": 0.85,
+      "_src": "news_13_mistral_codestral2",
+      "_tgt": "news_14_mistral_magistral",
+      "source": "news_13_mistral_codestral2",
+      "target": "news_14_mistral_magistral"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 2. Open-Source Highlights",
+      "weight": 1.0,
+      "_src": "news_13_llama4_scout",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_llama4_scout",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "Llama 4 Maverick surpasses Llama 4 Scout",
+      "weight": 1.0,
+      "_src": "news_13_llama4_scout",
+      "_tgt": "news_14_llama4_maverick",
+      "source": "news_13_llama4_scout",
+      "target": "news_14_llama4_maverick"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 2. Open-Source Highlights",
+      "weight": 1.0,
+      "_src": "news_13_phi4_mini",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_phi4_mini",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 3. Agentic AI & Tooling",
+      "weight": 1.0,
+      "_src": "news_13_copilot_studio_visual",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_copilot_studio_visual",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 3. Agentic AI & Tooling",
+      "weight": 1.0,
+      "_src": "news_13_langgraph_cloud",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_langgraph_cloud",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "Both are LangChain ecosystem products",
+      "weight": 0.82,
+      "_src": "news_13_langgraph_cloud",
+      "_tgt": "news_14_langchain4j_040",
+      "source": "news_13_langgraph_cloud",
+      "target": "news_14_langchain4j_040"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 4. Funding & Business",
+      "weight": 1.0,
+      "_src": "news_13_apple_reka_acquisition",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_apple_reka_acquisition",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 4. Funding & Business",
+      "weight": 1.0,
+      "_src": "news_13_cohere_500m",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_cohere_500m",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 5. Research & Breakthroughs",
+      "weight": 1.0,
+      "_src": "news_13_scaling_laws_2t",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_scaling_laws_2t",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "Both research papers about limits of scaling approaches",
+      "weight": 0.88,
+      "_src": "news_13_scaling_laws_2t",
+      "_tgt": "news_14_cot_diminishing_returns",
+      "source": "news_13_scaling_laws_2t",
+      "target": "news_14_cot_diminishing_returns"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "Both suggest efficiency over raw parameter scaling",
+      "weight": 0.75,
+      "_src": "news_13_scaling_laws_2t",
+      "_tgt": "news_14_moe_routing_interpretability",
+      "source": "news_13_scaling_laws_2t",
+      "target": "news_14_moe_routing_interpretability"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 5. Research & Breakthroughs",
+      "weight": 1.0,
+      "_src": "news_13_self_play_reasoning",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_self_play_reasoning",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "Both address autonomous AI reasoning improvements",
+      "weight": 0.7,
+      "_src": "news_13_self_play_reasoning",
+      "_tgt": "news_14_agentformer",
+      "source": "news_13_self_play_reasoning",
+      "target": "news_14_agentformer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 5. Research & Breakthroughs",
+      "weight": 1.0,
+      "_src": "news_13_taom_benchmark",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_taom_benchmark",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "Both deal with multi-agent coordination and memory",
+      "weight": 0.78,
+      "_src": "news_13_taom_benchmark",
+      "_tgt": "news_14_agentformer",
+      "source": "news_13_taom_benchmark",
+      "target": "news_14_agentformer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 6. Regulation & Policy",
+      "weight": 1.0,
+      "_src": "news_13_eu_ai_liability",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_eu_ai_liability",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "Both AI regulation policy stories in same digest",
+      "weight": 0.9,
+      "_src": "news_13_eu_ai_liability",
+      "_tgt": "news_13_us_senate_ai_act",
+      "source": "news_13_eu_ai_liability",
+      "target": "news_13_us_senate_ai_act"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md",
+      "source_location": "## 6. Regulation & Policy",
+      "weight": 1.0,
+      "_src": "news_13_us_senate_ai_act",
+      "_tgt": "news_13_ai_news_digest",
+      "source": "news_13_us_senate_ai_act",
+      "target": "news_13_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "weight": 1.0,
+      "_src": "news_14_llama4_maverick",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_llama4_maverick",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "weight": 1.0,
+      "_src": "news_14_gemini31_flash002",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_gemini31_flash002",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 1. Frontier Model Updates",
+      "weight": 1.0,
+      "_src": "news_14_grok3_enterprise",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_grok3_enterprise",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 2. Open-Source Highlights",
+      "weight": 1.0,
+      "_src": "news_14_mistral_magistral",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_mistral_magistral",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 2. Open-Source Highlights",
+      "weight": 1.0,
+      "_src": "news_14_deepseek_v4",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_deepseek_v4",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 3. Hardware & Infrastructure",
+      "weight": 1.0,
+      "_src": "news_14_nvidia_project_digits",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_nvidia_project_digits",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 3. Hardware & Infrastructure",
+      "weight": 1.0,
+      "_src": "news_14_groq_lpu_gen2",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_groq_lpu_gen2",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 4. Agentic AI & Tooling",
+      "weight": 1.0,
+      "_src": "news_14_kaio_ga",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_kaio_ga",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "KAIO deploys AI agents as microservices \u2014 connects tooling to learning content",
+      "weight": 0.75,
+      "_src": "news_14_kaio_ga",
+      "_tgt": "plan_microservices_patterns",
+      "source": "news_14_kaio_ga",
+      "target": "plan_microservices_patterns"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 4. Agentic AI & Tooling",
+      "weight": 1.0,
+      "_src": "news_14_computer_use_20",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_computer_use_20",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 4. Agentic AI & Tooling",
+      "weight": 1.0,
+      "_src": "news_14_langchain4j_040",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_langchain4j_040",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 5. Funding & Business",
+      "weight": 1.0,
+      "_src": "news_14_perplexity_1b",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_perplexity_1b",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 6. Research & Breakthroughs",
+      "weight": 1.0,
+      "_src": "news_14_cot_diminishing_returns",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_cot_diminishing_returns",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 6. Research & Breakthroughs",
+      "weight": 1.0,
+      "_src": "news_14_moe_routing_interpretability",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_moe_routing_interpretability",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md",
+      "source_location": "## 6. Research & Breakthroughs",
+      "weight": 1.0,
+      "_src": "news_14_agentformer",
+      "_tgt": "news_14_ai_news_digest",
+      "source": "news_14_agentformer",
+      "target": "news_14_ai_news_digest"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "## 3. Decomposition Strategies",
+      "weight": 1.0,
+      "_src": "plan_microservices_patterns",
+      "_tgt": "plan_microservices_ddd",
+      "source": "plan_microservices_patterns",
+      "target": "plan_microservices_ddd"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "### 6.2 Saga Pattern",
+      "weight": 1.0,
+      "_src": "plan_microservices_patterns",
+      "_tgt": "plan_microservices_saga",
+      "source": "plan_microservices_patterns",
+      "target": "plan_microservices_saga"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "### 3.3 Strangler Fig Pattern",
+      "weight": 1.0,
+      "_src": "plan_microservices_patterns",
+      "_tgt": "plan_microservices_strangler_fig",
+      "source": "plan_microservices_patterns",
+      "target": "plan_microservices_strangler_fig"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "### 6.1 Sidecar Pattern",
+      "weight": 1.0,
+      "_src": "plan_microservices_patterns",
+      "_tgt": "plan_microservices_sidecar",
+      "source": "plan_microservices_patterns",
+      "target": "plan_microservices_sidecar"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "### 6.3 Circuit Breaker",
+      "weight": 1.0,
+      "_src": "plan_microservices_patterns",
+      "_tgt": "plan_microservices_circuit_breaker",
+      "source": "plan_microservices_patterns",
+      "target": "plan_microservices_circuit_breaker"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "## 5. Data Ownership",
+      "weight": 1.0,
+      "_src": "plan_microservices_patterns",
+      "_tgt": "plan_microservices_db_per_service",
+      "source": "plan_microservices_patterns",
+      "target": "plan_microservices_db_per_service"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "## 4. Communication Patterns",
+      "weight": 1.0,
+      "_src": "plan_microservices_patterns",
+      "_tgt": "plan_microservices_sync_async",
+      "source": "plan_microservices_patterns",
+      "target": "plan_microservices_sync_async"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "*Next: Day 38 \u2014 API Gateway & Backend for Frontend (BFF) Pattern*",
+      "weight": 1.0,
+      "_src": "plan_microservices_patterns",
+      "_tgt": "plan_api_gateway_bff",
+      "source": "plan_microservices_patterns",
+      "target": "plan_api_gateway_bff"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "BFF solves the chatty-service anti-pattern from microservices patterns",
+      "weight": 0.85,
+      "_src": "plan_microservices_patterns",
+      "_tgt": "plan_bff_pattern",
+      "source": "plan_microservices_patterns",
+      "target": "plan_bff_pattern"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "## 3 & 5",
+      "weight": 0.9,
+      "_src": "plan_microservices_ddd",
+      "_tgt": "plan_microservices_db_per_service",
+      "source": "plan_microservices_ddd",
+      "target": "plan_microservices_db_per_service"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "Saga is async choreography",
+      "weight": 0.85,
+      "_src": "plan_microservices_saga",
+      "_tgt": "plan_microservices_sync_async",
+      "source": "plan_microservices_saga",
+      "target": "plan_microservices_sync_async"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md",
+      "source_location": "Sidecar handles tracing; gateway propagates trace IDs",
+      "weight": 0.8,
+      "_src": "plan_microservices_sidecar",
+      "_tgt": "plan_gateway_distributed_tracing",
+      "source": "plan_microservices_sidecar",
+      "target": "plan_gateway_distributed_tracing"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "CircuitBreaker filter in gateway route config",
+      "weight": 0.8,
+      "_src": "plan_microservices_circuit_breaker",
+      "_tgt": "plan_spring_cloud_gateway",
+      "source": "plan_microservices_circuit_breaker",
+      "target": "plan_spring_cloud_gateway"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "Both are resilience patterns at gateway layer",
+      "weight": 0.75,
+      "_src": "plan_microservices_circuit_breaker",
+      "_tgt": "plan_gateway_rate_limiting",
+      "source": "plan_microservices_circuit_breaker",
+      "target": "plan_gateway_rate_limiting"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "## 3. Spring Cloud Gateway",
+      "weight": 1.0,
+      "_src": "plan_api_gateway_bff",
+      "_tgt": "plan_spring_cloud_gateway",
+      "source": "plan_api_gateway_bff",
+      "target": "plan_spring_cloud_gateway"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "## 4. Backend for Frontend (BFF) Pattern",
+      "weight": 1.0,
+      "_src": "plan_api_gateway_bff",
+      "_tgt": "plan_bff_pattern",
+      "source": "plan_api_gateway_bff",
+      "target": "plan_bff_pattern"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "### 3.3 JWT Authentication Filter",
+      "weight": 1.0,
+      "_src": "plan_api_gateway_bff",
+      "_tgt": "plan_gateway_jwt_auth",
+      "source": "plan_api_gateway_bff",
+      "target": "plan_gateway_jwt_auth"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "### 3.4 Rate Limiting with Redis",
+      "weight": 1.0,
+      "_src": "plan_api_gateway_bff",
+      "_tgt": "plan_gateway_rate_limiting",
+      "source": "plan_api_gateway_bff",
+      "target": "plan_gateway_rate_limiting"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "### 6.3 Distributed Tracing Propagation",
+      "weight": 1.0,
+      "_src": "plan_api_gateway_bff",
+      "_tgt": "plan_gateway_distributed_tracing",
+      "source": "plan_api_gateway_bff",
+      "target": "plan_gateway_distributed_tracing"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "### 3.3 JWT Authentication Filter implements GlobalFilter",
+      "weight": 1.0,
+      "_src": "plan_spring_cloud_gateway",
+      "_tgt": "plan_gateway_jwt_auth",
+      "source": "plan_spring_cloud_gateway",
+      "target": "plan_gateway_jwt_auth"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "daily-learning-plans/2026-04/14-api-gateway-and-bff.md",
+      "source_location": "### 3.4 Rate Limiting with Redis",
+      "weight": 1.0,
+      "_src": "plan_spring_cloud_gateway",
+      "_tgt": "plan_gateway_rate_limiting",
+      "source": "plan_spring_cloud_gateway",
+      "target": "plan_gateway_rate_limiting"
     }
   ],
   "hyperedges": [
     {
-      "id": "ai_news_frontier_models",
-      "label": "Frontier Model Competition (Anthropic, OpenAI, Google)",
+      "id": "frontier_model_competition_apr13_14",
+      "label": "Frontier Model Competition April 13-14 (GPT-5o, Llama 4 Maverick, Claude Sonnet 4.7, Gemini 3.1 Flash)",
       "nodes": [
-        "news_08_claude_mythos5",
-        "news_10_openai_852b",
-        "news_12_gemini_ultra_2m",
-        "news_06_claude46_family"
+        "news_13_gpt5o_launch",
+        "news_14_llama4_maverick",
+        "news_13_claude_sonnet47",
+        "news_14_gemini31_flash002"
       ],
       "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "ai-daily-news/2026-04/12-ai-news.md"
-    },
-    {
-      "id": "prompt_lib_backend_stack",
-      "label": "Backend Engineer Prompt Stack",
-      "nodes": [
-        "prompt_lib_java_spring",
-        "prompt_lib_kafka",
-        "prompt_lib_mysql",
-        "prompt_lib_azure",
-        "prompt_lib_terraform"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "prompt-library/README.md"
-    },
-    {
-      "id": "claude_code_workflow_suite",
-      "label": "Claude Code Complete Workflow Suite",
-      "nodes": [
-        "claude_setup_basics",
-        "claude_advanced_workflows",
-        "claude_cowork_multi_agent",
-        "claude_customisation",
-        "claude_daily_workflow"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "ai-tools/anthropic-claude/README.md"
-    },
-    {
-      "id": "ai_coding_assistants_trio",
-      "label": "AI Coding Assistants (Claude, Copilot, JetBrains)",
-      "nodes": [
-        "claude_code_in_ide",
-        "copilot_chat_edits",
-        "jetbrains_ai_mastery"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "ai-tools/README.md"
-    },
-    {
-      "id": "agentic_framework_trio",
-      "label": "Agentic AI Framework Trio (Spring AI, LangChain4j, LangGraph)",
-      "nodes": [
-        "agentic_spring_ai_production",
-        "agentic_langchain4j",
-        "agentic_langgraph_python"
-      ],
-      "relation": "form",
       "confidence": "INFERRED",
       "confidence_score": 0.88,
-      "source_file": "agentic-ai/01-agentic-ai-architecture-deep-dive.md"
+      "source_file": "ai-daily-news/2026-04/14-ai-news.md"
     },
     {
-      "id": "ai_ide_assistants",
-      "label": "AI IDE Assistants (Copilot, Gemini, JetBrains)",
+      "id": "microservices_resilience_patterns",
+      "label": "Microservices Resilience Patterns (Circuit Breaker, Saga, Rate Limiting, BFF Fallback)",
       "nodes": [
-        "copilot_code_completion",
-        "gemini_in_ide",
-        "copilot_cli"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "ai-tools/README.md"
-    },
-    {
-      "id": "agentic_production_projects",
-      "label": "Agentic AI Production Projects",
-      "nodes": [
-        "agentic_code_review_project",
-        "agentic_customer_support_project",
-        "agentic_data_analysis_project"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "agentic-ai/21-capstone-full-production-agent.md"
-    },
-    {
-      "id": "agentic_production_projects_w3",
-      "label": "Week 3 Production Agent Projects",
-      "nodes": [
-        "agentic_ecommerce_project",
-        "agentic_devops_project",
-        "agentic_doc_processing_project",
-        "agentic_research_assistant"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "agentic-ai/15-production-agent-architecture.md"
-    },
-    {
-      "id": "sd_case_studies",
-      "label": "System Design Case Studies (Ride-Share, Payment, Social Feed, URL Shortener)",
-      "nodes": [
-        "sdplan_ride_sharing",
-        "sdplan_payment_system",
-        "sdplan_social_media_feed",
-        "sdplan_url_shortener"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "daily-learning-plans/2026-04/12-phase2-capstone-and-interview-prep.md"
-    },
-    {
-      "id": "multi_agent_orchestration_patterns",
-      "label": "Multi-Agent Orchestration Patterns",
-      "nodes": [
-        "agentic_multi_agent_orchestration",
-        "agentic_crewai",
-        "agentic_langgraph_multi_agent"
+        "plan_microservices_circuit_breaker",
+        "plan_microservices_saga",
+        "plan_gateway_rate_limiting",
+        "plan_spring_cloud_gateway"
       ],
       "relation": "implement",
       "confidence": "INFERRED",
-      "confidence_score": 0.88,
-      "source_file": "agentic-ai/08-multi-agent-orchestration.md"
+      "confidence_score": 0.85,
+      "source_file": "daily-learning-plans/2026-04/13-microservices-patterns.md"
     },
     {
-      "id": "llm_pipeline_foundation",
-      "label": "LLM Integration Pipeline (Embeddings \u2192 RAG \u2192 Agents \u2192 Memory)",
+      "id": "ai_regulation_wave_2026",
+      "label": "AI Regulation Wave 2026 (EU Liability, US Senate Act, UK AISI, China NAISC)",
       "nodes": [
-        "plan_embeddings_vector_search",
-        "plan_rag",
-        "plan_llm_agents",
-        "plan_llm_memory",
-        "plan_tool_calling"
+        "news_13_eu_ai_liability",
+        "news_13_us_senate_ai_act",
+        "news_14_ai_news_digest"
       ],
-      "relation": "form",
+      "relation": "participate_in",
       "confidence": "INFERRED",
-      "confidence_score": 0.92,
-      "source_file": "daily-learning-plans/2026-03/22-phase1-capstone-and-review.md"
-    },
-    {
-      "id": "system_design_infrastructure",
-      "label": "System Design Infrastructure Core (Caching, DB, Queues, Rate Limiting)",
-      "nodes": [
-        "plan_caching",
-        "plan_db_design_indexing",
-        "plan_message_queues",
-        "plan_rate_limiting"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "daily-learning-plans/2026-03/23-scalability-fundamentals.md"
-    },
-    {
-      "id": "distributed_systems_core",
-      "label": "Distributed Systems Core (CAP, Hashing, Discovery, Service Mesh)",
-      "nodes": [
-        "plan_distributed_systems",
-        "plan_consistent_hashing",
-        "plan_service_discovery"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.88,
-      "source_file": "daily-learning-plans/2026-03/28-distributed-systems-fundamentals.md"
+      "confidence_score": 0.82,
+      "source_file": "ai-daily-news/2026-04/13-ai-news.md"
     }
   ]
 }
