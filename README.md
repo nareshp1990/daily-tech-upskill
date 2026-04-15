@@ -88,6 +88,7 @@ daily-learning-plans/
 |------|-------|------|
 | 2026-04-13 | Microservices Patterns — DDD Bounded Contexts, Decomposition, Communication, Sagas | [View](daily-learning-plans/2026-04/13-microservices-patterns.md) |
 | 2026-04-14 | API Gateway & BFF — Spring Cloud Gateway, JWT Auth, Rate Limiting, Backend for Frontend | [View](daily-learning-plans/2026-04/14-api-gateway-and-bff.md) |
+| 2026-04-15 | Service Mesh & Istio — Traffic Management, mTLS, Observability, Canary Deployments, AKS | [View](daily-learning-plans/2026-04/15-service-mesh-and-istio.md) |
 
 ### AI Daily News
 
@@ -110,6 +111,7 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 | 2026-04-12 | Gemini 3.1 Ultra Hits 2M Token Context, World Models Emerge as 2026's Core AI Frontier, NVIDIA GR00T Opens Physical AI to Everyone | [View](ai-daily-news/2026-04/12-ai-news.md) |
 | 2026-04-13 | OpenAI Launches GPT-5o with Native Code Execution, Apple Acquires Reka AI for $1.8B, EU Passes AI Liability Directive | [View](ai-daily-news/2026-04/13-ai-news.md) |
 | 2026-04-14 | Llama 4 Maverick Tops Open-Source Leaderboard, NVIDIA Project Digits Ships, Kubernetes AI Operator Goes GA | [View](ai-daily-news/2026-04/14-ai-news.md) |
+| 2026-04-15 | Anthropic Claude Mythos Preview leaks to partners, DeepSeek R2 rivals o3 at 70% lower cost, Agentic AI hits 96% enterprise adoption | [View](ai-daily-news/2026-04/15-ai-news.md) |
 
 ---
 
