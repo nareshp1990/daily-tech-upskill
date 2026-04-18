@@ -113,6 +113,8 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 | 2026-04-13 | OpenAI Launches GPT-5o with Native Code Execution, Apple Acquires Reka AI for $1.8B, EU Passes AI Liability Directive | [View](ai-daily-news/2026-04/13-ai-news.md) |
 | 2026-04-14 | Llama 4 Maverick Tops Open-Source Leaderboard, NVIDIA Project Digits Ships, Kubernetes AI Operator Goes GA | [View](ai-daily-news/2026-04/14-ai-news.md) |
 | 2026-04-15 | Anthropic Claude Mythos Preview leaks to partners, DeepSeek R2 rivals o3 at 70% lower cost, Agentic AI hits 96% enterprise adoption | [View](ai-daily-news/2026-04/15-ai-news.md) |
+| 2026-04-16 | Mistral Large 3 ships with EU data residency, Anthropic Claude Mythos Preview goes to 50 partners via Project Glasswing, EU AI Act open-source exemptions clarified | [View](ai-daily-news/2026-04/16-ai-news.md) |
+| 2026-04-17 | OpenAI co-founds Agentic AI Foundation under Linux Foundation, Microsoft Agent Framework open-sourced, AI finance adoption stalls at department level | [View](ai-daily-news/2026-04/17-ai-news.md) |
 | 2026-04-18 | Claude Opus 4.6 tops LMSYS Arena with hybrid MoE architecture, DeepSeek R2 rivals o3 at 70% cost, EU AI Act enforcement begins August 2026 | [View](ai-daily-news/2026-04/18-ai-news.md) |
 
 ---
