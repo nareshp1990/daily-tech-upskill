@@ -89,6 +89,7 @@ daily-learning-plans/
 | 2026-04-13 | Microservices Patterns — DDD Bounded Contexts, Decomposition, Communication, Sagas | [View](daily-learning-plans/2026-04/13-microservices-patterns.md) |
 | 2026-04-14 | API Gateway & BFF — Spring Cloud Gateway, JWT Auth, Rate Limiting, Backend for Frontend | [View](daily-learning-plans/2026-04/14-api-gateway-and-bff.md) |
 | 2026-04-15 | Service Mesh & Istio — Traffic Management, mTLS, Observability, Canary Deployments, AKS | [View](daily-learning-plans/2026-04/15-service-mesh-and-istio.md) |
+| 2026-04-18 | Docker Deep-Dive — Internals, Multi-Stage Builds, Image Optimisation, Compose, Security | [View](daily-learning-plans/2026-04/40-docker-deep-dive.md) |
 
 ### AI Daily News
 
@@ -112,6 +113,7 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 | 2026-04-13 | OpenAI Launches GPT-5o with Native Code Execution, Apple Acquires Reka AI for $1.8B, EU Passes AI Liability Directive | [View](ai-daily-news/2026-04/13-ai-news.md) |
 | 2026-04-14 | Llama 4 Maverick Tops Open-Source Leaderboard, NVIDIA Project Digits Ships, Kubernetes AI Operator Goes GA | [View](ai-daily-news/2026-04/14-ai-news.md) |
 | 2026-04-15 | Anthropic Claude Mythos Preview leaks to partners, DeepSeek R2 rivals o3 at 70% lower cost, Agentic AI hits 96% enterprise adoption | [View](ai-daily-news/2026-04/15-ai-news.md) |
+| 2026-04-18 | Claude Opus 4.6 tops LMSYS Arena with hybrid MoE architecture, DeepSeek R2 rivals o3 at 70% cost, EU AI Act enforcement begins August 2026 | [View](ai-daily-news/2026-04/18-ai-news.md) |
 
 ---
 
