@@ -35,15 +35,47 @@ Anthropic has transformed from an API-first model provider into a full-stack AI 
 
 ## 2. Claude Model Family Updates
 
-### Current Model Lineup (March 2026)
+### Current Model Lineup (April 2026)
 
 | Model | ID | Context Window | Strengths | Pricing (Input/Output per MTok) |
 |-------|-----|---------------|-----------|-------------------------------|
+| **Claude Opus 4.7** ⭐ NEW | `claude-opus-4-7` | 1,000,000 tokens | Strongest coding (SWE-bench Pro 64.3%), adaptive thinking only, high-res vision, task budgets | $15 / $75 |
 | **Claude Opus 4.6** | `claude-opus-4-6` | 1,000,000 tokens | Most capable — coding, planning, debugging, financial analysis, 14.5hr task horizon | $15 / $75 |
 | **Claude Sonnet 4.6** | `claude-sonnet-4-6` | 200K (1M beta) | Balanced speed + intelligence, improved agentic search, fewer tokens consumed | $3 / $15 |
 | **Claude Haiku 4.5** | `claude-haiku-4-5-20251001` | 200K | Fastest, near-frontier performance, real-time apps, cost-sensitive deployments | $0.80 / $4 |
 
 ### What Changed
+
+**Opus 4.7 (April 16, 2026)** — GA:
+- **SWE-bench Pro score: 64.3%** (up from 53.4% for Opus 4.6) — best coding performance yet
+- **Adaptive thinking only** — `thinking: {type: "adaptive"}`; explicit `budget_tokens` removed (returns 400)
+- **High-resolution vision** — supports images up to 2576px / 3.75MP (up from 1568px); pixel coordinates map 1:1 — no scale-factor math required
+- **`xhigh` effort level** — new tier between `high` and `max`; recommended for coding and agentic tasks
+- **Task budgets (beta)** — advisory token budget (`task_budget`) across a full agentic loop via beta header `task-budgets-2026-03-13`; model sees a running countdown; distinct from `max_tokens`
+- **Enhanced vision capabilities** — low-level perception (pointing, measuring, counting), image localization, bounding-box detection
+- **Breaking API changes vs 4.6:**
+  - `temperature`, `top_p`, `top_k` non-default values now return 400 — omit entirely
+  - Thinking content **omitted from responses by default** (set `"display": "summarized"` to restore visible reasoning)
+  - New tokenizer: 1x–1.35x more tokens than Opus 4.6 (up to ~35% more, content-dependent)
+- **Behavior changes** (prompt-tuning may be needed):
+  - More literal instruction following at lower effort levels
+  - Response length calibrates to task complexity rather than fixed verbosity
+  - Fewer tool calls and subagents spawned by default
+  - Real-time cybersecurity safeguards (Cyber Verification Program available for security research)
+
+```java
+// Using Opus 4.7 in Spring AI
+@Bean
+public ChatClient opus47Client(ChatClient.Builder builder) {
+    return builder
+        .defaultOptions(AnthropicChatOptions.builder()
+            .model("claude-opus-4-7")
+            .maxTokens(16384)
+            // Do NOT set temperature/top_p — returns 400 error on 4.7
+            .build())
+        .build();
+}
+```
 
 **Opus 4.6 (February 5, 2026)**:
 - 1-million-token context window (up from 200K)
@@ -268,6 +300,87 @@ Claude Code now maintains persistent project knowledge across sessions:
 - Loaded at the start of each session
 - Can be manually managed via `/memory` command
 - Keeps an index file (`MEMORY.md`) for quick reference
+
+### 3.8 Fast Mode (`/fast`) — April 2026
+
+Fast mode enables faster output from Claude Opus 4.6 without downgrading to a smaller model.
+
+```bash
+# Toggle fast mode in a Claude Code session
+/fast
+```
+
+- Uses Claude Opus 4.6 with optimised output speed (not a smaller model)
+- Available exclusively on Opus 4.6 (not yet on 4.7)
+- Ideal for quick edits, file reads, and repetitive tasks where full thinking depth is unnecessary
+- Toggle on/off mid-session — persists until toggled again
+
+### 3.9 Ultraplan (Research Preview — April 2026)
+
+Ultraplan runs a planning agent in a remote cloud container while freeing your local terminal.
+
+**Three modes:**
+- **Simple** — Quick plan generation
+- **Visual** — Web editor with inline comments, emoji reactions, and outline sidebar
+- **Deep** — Comprehensive multi-angle planning using Opus 4.6 in a remote container (up to 30 minutes)
+
+```bash
+# Start Ultraplan from CLI
+/ultraplan "Refactor the order-service to use event sourcing"
+```
+
+**Flow:**
+1. Claude drafts a plan in a remote container
+2. Review and annotate the plan in the web editor
+3. Choose: run remotely (stays in container) or pull back locally
+4. Auto-creates a cloud environment on first run (Team/Enterprise plans)
+
+### 3.10 Auto Mode (GA for Max — April 2026)
+
+Auto mode replaces manual permission prompts with an intelligent classifier:
+
+- **Safe actions** run without interruption (file reads, searches, git status)
+- **Risky actions** are automatically blocked (destructive deletes, force pushes)
+- Middle ground between `--dangerously-skip-permissions` and full manual approval
+- GA for Max subscribers (Opus 4.7); use `--auto` flag
+
+```bash
+claude --auto  # Enable auto mode
+```
+
+### 3.11 `/ultrareview` — Multi-Agent Cloud Code Review (Research Preview)
+
+```bash
+/ultrareview
+```
+
+- Runs a cloud-based two-stage multi-agent code review
+  - Stage 1: Find potential bugs across the entire codebase
+  - Stage 2: Confirm which bugs are real (separate verification agent)
+- Far more thorough than single-agent review — catches issues that require cross-file reasoning
+- Requires Team or Enterprise plan
+- Results delivered as a structured report in the chat
+
+### 3.12 New Commands & Features (2026)
+
+| Command / Feature | Description |
+|-------------------|-------------|
+| `/team-onboarding` | Packages your Claude Code setup into a replayable onboarding guide for teammates |
+| `/autofix-pr` | Enables PR auto-fix from the terminal |
+| `/powerup` | Interactive animated lessons on Claude Code features |
+| `/fewer-permission-prompts` | Scans session transcripts, proposes read-only command allowlist to reduce prompts |
+| `/recap` | Generates a context summary when resuming a paused session |
+| `/focus` | Toggles focus view (separates transcript from focus panel) |
+| `/cost` (enhanced) | Now shows per-model breakdown and cache-hit rate |
+| `Monitor` tool | Streams background script events live into the conversation; Claude tails logs and reacts |
+| `PreCompact` hook | Blocking capability (exit code 2); background monitor support for plugins |
+| `ENABLE_PROMPT_CACHING_1H` | Env var for extended 1-hour prompt cache TTL (beyond the standard 5-minute TTL) |
+| Amazon Bedrock via Mantle | `CLAUDE_CODE_USE_MANTLE=1`; interactive Bedrock and Vertex AI setup wizards built in |
+| PID namespace sandboxing | Linux: `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB` for subprocess isolation |
+| Read-only bash + globs | Bash commands with glob patterns that are read-only no longer trigger permission prompts |
+| Plan file naming | Plan files auto-named after prompt content (e.g., `fix-auth-race-snug-otter.md`) |
+| Push notification tool | Mobile alerts when Remote Control enabled |
+| Windows PowerShell tool | Native PowerShell support (progressive rollout; toggle with `CLAUDE_CODE_USE_POWERSHELL_TOOL`) |
 
 ---
 
@@ -707,6 +820,14 @@ Artifacts have evolved from simple code/text outputs to interactive applications
 | **Mar 2026** | Data residency controls | Enterprise |
 | **Mar 2026** | Xcode 26.3 Agent SDK integration | IDE |
 | **Mar 2026** | Files API (PPTX, XLSX, DOCX) | API |
+| **Apr 2026** | Claude Opus 4.7 (GA) | Model |
+| **Apr 2026** | Fast mode (`/fast`) for Opus 4.6 | Developer |
+| **Apr 2026** | Ultraplan (research preview) | Developer |
+| **Apr 2026** | Auto mode (GA for Max) | Developer |
+| **Apr 2026** | `/ultrareview` (multi-agent cloud review) | Developer |
+| **Apr 2026** | Task budgets beta API | API |
+| **Apr 2026** | Monitor tool, PreCompact hook | Developer |
+| **Apr 2026** | `/team-onboarding`, `/powerup`, `/recap` | Developer |
 
 ---
 
@@ -722,6 +843,9 @@ Based on public statements, meetups, and research previews:
 | **More MCP Integrations** | Anthropic blog — "expanding enterprise partnerships" | Ongoing |
 | **Claude 5** | Industry speculation, benchmark leaks | H2 2026 |
 | **Cowork GA** | Currently research preview | Q2 2026 |
+| **Ultraplan GA** | Currently research preview | Q2–Q3 2026 |
+| **`/ultrareview` GA** | Currently research preview (Team/Enterprise) | Q2–Q3 2026 |
+| **Claude Haiku 4.7** | Likely next in the Haiku line | Q2–Q3 2026 |
 
 ---
 
@@ -830,4 +954,4 @@ print(result.output)
 
 ---
 
-*Last updated: March 2026. Anthropic ships frequently — check the official release notes for the very latest.*
+*Last updated: April 2026. Anthropic ships frequently — check the official release notes for the very latest.*

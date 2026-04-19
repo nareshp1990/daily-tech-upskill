@@ -426,17 +426,48 @@ The agent creates multiple files, configures dependencies, and generates a worki
 
 ## Model Selection
 
-### Available Models in Copilot
+### Available Models in Copilot (April 2026 — 22 models)
 
-As of 2025, Copilot supports multiple models:
+Copilot now supports a broad multi-vendor model selection across Agent, Ask, and Edit modes.
+
+**OpenAI models:**
 
 | Model | Best For | Speed |
 |-------|----------|-------|
-| **GPT-4o** | General coding, chat, explanations | Fast |
-| **Claude 3.5 Sonnet** | Complex reasoning, refactoring, long code | Medium |
-| **GPT-4o mini** | Quick completions, simple edits | Very fast |
-| **o1-preview** | Complex logic, algorithm design | Slow |
-| **o1-mini** | Math, logical reasoning | Medium |
+| **GPT-4.1** | General coding, chat, explanations | Fast |
+| **GPT-5 mini** | Quick completions, simple edits | Very fast |
+| **GPT-5.2-Codex / GPT-5.3-Codex** | Code-specialist tasks | Medium |
+| **GPT-5.4** | Complex multi-file reasoning | Medium |
+| **GPT-5.4 mini** | Cost-effective large tasks | Fast |
+
+**Anthropic models:**
+
+| Model | Best For | Speed |
+|-------|----------|-------|
+| **Claude Opus 4.7** ⭐ (GA) | Strongest coding, complex refactors | Medium |
+| **Claude Opus 4.6 fast mode** (Preview) | Opus 4.6 quality at faster speed | Fast |
+| **Claude Opus 4.6** | Deep reasoning, multi-file work | Medium |
+| **Claude Sonnet 4.6** | Daily coding balance | Fast |
+| **Claude Sonnet 4 / 4.5** | Balanced tasks | Fast |
+| **Claude Haiku 4.5** | High-volume, low-latency | Very fast |
+
+**Google models:**
+
+| Model | Best For | Speed |
+|-------|----------|-------|
+| **Gemini 2.5 Pro** | Long-context analysis, research | Medium |
+| **Gemini 3 Flash** (Preview) | Speed-optimized large tasks | Fast |
+| **Gemini 3.1 Pro** (Preview) | Complex problem-solving | Medium |
+
+**Other:**
+
+| Model | Best For | Speed |
+|-------|----------|-------|
+| **Grok Code Fast 1 (xAI)** | Rapid code completion | Very fast |
+| **Raptor mini** (Preview) | Fine-tuned GPT-5 mini for code | Fast |
+| **Goldeneye** (Preview) | Fine-tuned GPT-5.1-Codex | Medium |
+
+**Auto model selection** — Copilot intelligently assigns models by task; no manual picking needed.
 
 ### Switching Models
 
@@ -445,26 +476,28 @@ As of 2025, Copilot supports multiple models:
 2. Click the model name at the top of the chat panel
 3. Select a different model from the dropdown
 
-**Keyboard**: No shortcut — use the dropdown.
+**All GA models** support three modes: **Agent mode**, **Ask mode**, **Edit mode**.
 
 ### When to Use Which Model
 
 ```
-Simple code completion → GPT-4o mini (fastest)
-Chat explanations → GPT-4o (good balance)
-Complex refactoring → Claude 3.5 Sonnet (best reasoning)
-Algorithm design → o1-preview (deep thinking)
-Quick inline chat → GPT-4o mini
+Simple code completion → GPT-5 mini or Claude Haiku 4.5 (fastest)
+Chat explanations     → GPT-4.1 or Claude Sonnet 4.6 (good balance)
+Complex refactoring   → Claude Opus 4.7 (best coding benchmark)
+Algorithm design      → Claude Opus 4.7 or GPT-5.4 (deep reasoning)
+Long-context analysis → Gemini 2.5 Pro (1M token context window)
+Quick inline chat     → GPT-5 mini or Claude Haiku 4.5
 ```
 
 ### Model Selection Strategy
 
 ```
-Morning code review:     GPT-4o (fast, good explanations)
-Active development:      GPT-4o mini (fast completions, low latency)
-Complex debugging:       Claude 3.5 Sonnet (better at tracing logic)
-Architecture planning:   o1-preview (deep reasoning)
-Test generation:         GPT-4o (good balance of speed and quality)
+Morning code review:     Claude Sonnet 4.6 (fast, great reasoning)
+Active development:      GPT-5 mini (fast completions, low latency)
+Complex debugging:       Claude Opus 4.7 (best at tracing multi-file logic)
+Architecture planning:   Claude Opus 4.7 or Gemini 2.5 Pro
+Test generation:         Claude Sonnet 4.6 (good balance of speed and quality)
+Long-context tasks:      Gemini 2.5 Pro (1M context)
 ```
 
 ---
@@ -612,6 +645,125 @@ Add paths:
 1. **Do not fight Copilot**: If suggestions are consistently wrong, the context is misleading. Fix the context (imports, class structure, comments) rather than cycling through suggestions.
 2. **Dismiss quickly**: Press `Esc` immediately if the suggestion starts wrong. Type a few more characters and wait for a new suggestion.
 3. **Use Tab stops**: In VS Code, Copilot suggestions work with tab stops in snippets. Accept the snippet first, then fill in the blanks.
+
+---
+
+---
+
+## Copilot Coding Agent (Autonomous Background Worker)
+
+The Copilot Coding Agent is distinct from in-IDE agent mode — it's an **autonomous background worker** that handles issues and returns a PR.
+
+### How It Works
+
+```
+1. Assign a GitHub issue to Copilot (or click "Open in Copilot")
+2. Copilot works asynchronously in a remote environment
+3. It self-reviews the code before opening the PR
+4. Returns a ready-to-review PR — you continue other work
+```
+
+### Key Capabilities
+
+- **Self-review before PR** — Runs Copilot code review on its own changes, iterates to fix issues before opening the PR
+- **Built-in security scanning** — Code scanning, secret scanning, and dependency vulnerability checks run automatically (code scanning provided **free** with coding agent, normally requires GitHub Advanced Security)
+- **Model picker** — Choose faster models for adding unit tests; upgrade to Claude Opus 4.7 for complex refactors; "auto" assigns intelligently
+- **CLI handoff (`&` symbol)** — Move a coding agent session from cloud to local, preserving branch context, logs, and conversation history
+- **Agentic code review** — Code review gathers full project context, then passes fix suggestions directly to the coding agent to auto-generate fix PRs
+
+### Triggering the Coding Agent
+
+```
+Option 1: On GitHub Issues
+  → Assign the issue to @copilot
+  → Comment: "@copilot please implement this"
+
+Option 2: In VS Code
+  → Copilot Chat → "Start working on this issue"
+  → Copilot creates a branch and starts working
+
+Option 3: GitHub.com
+  → Issue page → "Open in Copilot"
+```
+
+### Custom Agents via `.github/agents/*.agent.md`
+
+Define specialized agents with codebase awareness, preferred model, and custom tools:
+
+```markdown
+<!-- .github/agents/performance-optimizer.agent.md -->
+# Performance Optimizer
+
+## Description
+An agent specialized in identifying and fixing performance bottlenecks.
+
+## Preferred Model
+claude-opus-4-7
+
+## Instructions
+When analyzing code:
+1. Run the existing benchmarks first
+2. Profile the hot paths
+3. Apply targeted optimizations (avoid algorithmic rewrites unless justified)
+4. Run benchmarks again to verify improvement
+5. Document before/after results in the PR description
+
+## Tools
+- JMH benchmarks via Gradle: `./gradlew jmh`
+- Profiling via async-profiler (available in the repo)
+```
+
+The custom agent appears in the agent picker — useful for team-specific workflows.
+
+---
+
+## Copilot Memory (Public Preview — 2026)
+
+Copilot Memory remembers user context across chat sessions:
+
+- **What it remembers**: Your preferences, recurring patterns, project-specific conventions
+- **How it works**: Copilot accumulates context over time from your interactions
+- **Privacy control**: View and delete remembered facts from Copilot settings
+- **Scope**: Per-user, not per-repository
+
+**Practical benefit**: No need to repeat "use constructor injection, not field injection" or "we target Java 21" in every session.
+
+---
+
+## Next Edit Suggestions (VS Code)
+
+Next Edit Suggestions predicts and offers your next likely code change based on current context:
+
+- **How it's different from completions**: Standard completions fill in code at your cursor; Next Edit Suggestions predict *what you'll want to change next* — even on a different line
+- **Trigger**: Appears as a faded overlay on the predicted next edit
+- **Accept**: Press `Tab` to accept the predicted change
+- **Use case**: Especially powerful when making repetitive structural changes (updating multiple constructor parameters, propagating a rename)
+
+```java
+// You update this field:
+private final OrderRepository orderRepository;
+
+// Next Edit Suggestions automatically offers:
+// → Update the constructor parameter
+// → Update the @Autowired-free constructor body
+// → Update usages in the method below
+```
+
+---
+
+## GitHub Spark (Public Preview — 2026)
+
+GitHub Spark lets you build and deploy full-stack micro-applications directly from Copilot:
+
+```
+"Build a Spring Boot REST endpoint status dashboard that reads from 
+GitHub Actions and shows green/red status per service"
+```
+
+- Copilot generates the full-stack app (frontend + backend)
+- Deploys to GitHub infrastructure automatically
+- Can be shared with teammates as a URL
+- Suitable for internal tools, dashboards, and prototypes — not production microservices
 
 ---
 

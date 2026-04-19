@@ -2,20 +2,90 @@
 
 ## Table of Contents
 
-1. [Gemini Gems](#1-gemini-gems)
-2. [Gemini Deep Research](#2-gemini-deep-research)
-3. [Gemini in Google Workspace](#3-gemini-in-google-workspace)
-4. [NotebookLM](#4-notebooklm)
-5. [Gemini Live](#5-gemini-live)
-6. [Extensions and Integrations](#6-extensions-and-integrations)
-7. [Grounding and Citations](#7-grounding-and-citations)
-8. [Safety Settings and Content Filtering](#8-safety-settings-and-content-filtering)
-9. [Practical Use Cases for Senior Developers](#9-practical-use-cases-for-senior-developers)
-10. [Try This Exercises](#10-try-this-exercises)
+1. [Gemini Model Lineup (2025–2026)](#1-gemini-model-lineup-20252026)
+2. [Gemini Gems](#2-gemini-gems)
+3. [Gemini Deep Research](#3-gemini-deep-research)
+4. [Gemini Canvas](#4-gemini-canvas)
+5. [Gemini Scheduled Actions](#5-gemini-scheduled-actions)
+6. [Gemini in Google Workspace](#6-gemini-in-google-workspace)
+7. [NotebookLM](#7-notebooklm)
+8. [Gemini Live](#8-gemini-live)
+9. [Gemini for Mac & Gemini in Chrome](#9-gemini-for-mac--gemini-in-chrome)
+10. [Gemini Code Assist — 2026 Updates](#10-gemini-code-assist--2026-updates)
+11. [Extensions and Integrations](#11-extensions-and-integrations)
+12. [Grounding and Citations](#12-grounding-and-citations)
+13. [Safety Settings and Content Filtering](#13-safety-settings-and-content-filtering)
+14. [Deprecations](#14-deprecations)
+15. [Practical Use Cases for Senior Developers](#15-practical-use-cases-for-senior-developers)
+16. [Try This Exercises](#16-try-this-exercises)
 
 ---
 
-## 1. Gemini Gems
+## 1. Gemini Model Lineup (2025–2026)
+
+### Gemini 2.5 Family (GA — June 2025)
+
+| Model | Context | Strengths | Pricing (Input/Output per MTok) |
+|-------|---------|-----------|-------------------------------|
+| **Gemini 2.5 Pro** | 1M (2M coming) | Adaptive thinking, best reasoning quality | ~$1.25 / $10 (doubles above 200K tokens) |
+| **Gemini 2.5 Flash** | 1M | Speed + thinking balance, 30 HD voices | Low cost |
+| **Gemini 2.5 Flash-Lite** | 1M | Lowest cost in 2.5 family | Lowest |
+| **Gemini 2.5 Deep Think** | 1M | Enhanced iterative thinking (Ultra tier only) | — |
+
+### Gemini 3.x Family (Nov 2025 – Apr 2026)
+
+| Model | Released | Strengths |
+|-------|----------|-----------|
+| **Gemini 3 Pro** | Nov 18, 2025 | PhD-level reasoning, enhanced multimodal |
+| **Gemini 3 Flash** | Dec 17, 2025 | Default app model; replaced 2.5 Flash |
+| **Gemini 3 Deep Think** | Dec 4, 2025 | Ultra-exclusive iterative reasoning |
+| **Gemini 3.1 Pro** | Feb 19, 2026 | Complex problem-solving, visual explanations, multi-step planning |
+| **Gemini 3.1 Flash** | Preview | High-performance, low-latency |
+| **Gemini 3.1 Flash-Lite** | Mar 3, 2026 | Most cost-efficient option |
+| **Gemini 3.1 Flash-Live** | Mar 26, 2026 | Real-time audio-to-audio streaming |
+| **Gemini 3.1 Flash-Image** | Feb 26, 2026 | Speed-optimized image generation |
+| **Gemini 3.1 Flash TTS** | Apr 15, 2026 | Expressive, steerable text-to-speech; multi-speaker, 24+ languages |
+
+### Specialized Models
+
+| Model | Released | Capability |
+|-------|----------|-----------|
+| **Imagen 4** Ultra/Standard/Fast | Aug 14, 2025 | Improved text-in-image, instruction-following, typography |
+| **Veo 3.1 / 3.1-fast** | Oct 15, 2025 | Video generation with audio (dialogue, SFX, music); 4K output |
+| **Veo 3.1-lite** | Mar 31, 2026 | Most cost-efficient video generation |
+| **Lyria 3** clip + pro | Mar 25, 2026 | Music generation from text and images |
+| **Gemini Embedding 001** | Jul 14, 2025 GA | Text embeddings |
+| **Gemini Embedding 2** | Mar 10, 2026 preview | First multimodal embedding: text, image, video, audio, PDF |
+| **Gemini Robotics ER-1.6** | Apr 14, 2026 | Instrument reading, spatial reasoning |
+
+### New API Platform Features
+
+| Feature | Date | Description |
+|---------|------|-------------|
+| **Inference tiers** | Apr 1, 2026 | Flex tier (cost-optimize) vs Priority tier (latency-optimize) |
+| **Computer Use tool** | Jan 29, 2026 | Gemini can interact with desktop UIs |
+| **Built-in Tools + Function Calling** | Mar 18, 2026 | Combine built-in tools (search, code) with custom function calling in one request |
+| **Google Maps grounding** | Mar 18, 2026 | Extended to Gemini 3 models |
+| **File API: 100MB limit** | Jan 8, 2026 | Up from 20MB; Cloud Storage bucket and pre-signed URL support |
+| **File Search API** | Nov 6, 2025 | Search within uploaded files |
+| **Live API: 24hr sessions** | — | Session resumption, configurable VAD, context window compression, 30 HD voices, async function calls |
+| **Batch API** | Jul 7, 2025 | Async processing; embeddings support added Sep 10, 2025 |
+| **Context caching** | Apr 2025 | Available for Gemini 2.0 Flash and above |
+| **Multimodal function responses** | Dec 17, 2025 | Functions can return images, audio, video |
+| **Pre/Postpay billing** | Mar 23, 2026 | Project-level and account-level spend caps |
+| **Gemini Embedding 2** | Mar 10, 2026 | Multimodal embeddings for text, image, video, audio, PDF |
+
+### Subscription Tiers (2026)
+
+| Plan | Price | Key Access |
+|------|-------|-----------|
+| **Free** | $0 | Gemini 3 Flash, limited usage, Deep Research (free tier) |
+| **Google AI Pro** | ~$20/mo (rebranded from Gemini Advanced, May 2025) | Gemini 3.1 Pro, Canvas, Workspace integration, Gems, higher limits |
+| **Google AI Ultra** | ~$250/mo | 1M context, priority access, Deep Think, Veo 3, all preview features |
+
+---
+
+## 2. Gemini Gems
 
 **Gems** are custom AI personas within Gemini Advanced. Think of them as reusable
 system prompts with a personality.
@@ -130,9 +200,22 @@ Use real numbers: QPS, storage, bandwidth estimates.
 Focus on distributed systems patterns I should know.
 ```
 
+### Shareable Gems (September 2025)
+
+Gems can now be shared with team members — similar to Google Drive sharing:
+
+```
+1. Open Gem Manager → select a Gem
+2. Click "Share" → add team members by email
+3. Set permission: View only or Edit
+4. Share the link — teammates can start conversations with the shared Gem
+```
+
+**Team use case**: Create a "Code Reviewer" Gem with your team's standards, share it with all engineers. Consistent review criteria across the team without copying instructions.
+
 ---
 
-## 2. Gemini Deep Research
+## 3. Gemini Deep Research (Updated — Gemini 3.x Thinking)
 
 Deep Research is Gemini's automated research capability that:
 1. Takes your question
@@ -217,9 +300,98 @@ streaming, community activity, production readiness, and code examples."
 | Structure | Conversational | Structured document with sections |
 | Best for | Quick questions | In-depth analysis, decision-making |
 
+**2026 Updates to Deep Research:**
+- Upgraded to **Gemini 3.x Flash Thinking** model (faster, more thorough)
+- **Free tier access** — no longer requires paid subscription
+- **Canvas integration** — output can be opened directly in Canvas for interactive editing
+
 ---
 
-## 3. Gemini in Google Workspace
+## 4. Gemini Canvas (March 2025)
+
+Canvas is a collaborative document co-creation space within Gemini — a living workspace where AI and the user work together on documents and code.
+
+### What Canvas Can Do
+
+| Capability | Description |
+|-----------|-------------|
+| **Document co-creation** | Draft, edit, and refine long documents iteratively |
+| **Code iteration** | Write, test, and refine code with real-time preview |
+| **Web page generation** | Generate complete HTML/CSS/JS pages with live preview |
+| **Infographic creation** | Generate visual infographics from data or descriptions |
+| **Quiz generation** | Create interactive quizzes from uploaded content |
+| **Audio overview** | Generate podcast-style audio summary of the document |
+| **Vibe coding** | Build apps conversationally, iterate in real time |
+| **Cross-user data sharing** | Share Canvas documents with teammates (Drive-style) |
+
+### Using Canvas for Technical Documentation
+
+```
+1. Open Gemini → type your request with "use Canvas" or click Canvas icon
+
+2. Example prompts:
+   "In Canvas, write a technical design document for a rate limiting service.
+    Include: requirements, API design, data model, failure modes."
+
+   "In Canvas, create an API reference for our order service with endpoints,
+    request/response examples, and error codes."
+
+3. Iterate interactively:
+   "Add a section on Redis implementation"
+   "Make the architecture diagram section more detailed"
+   "Generate an audio overview of this doc"
+
+4. Share the Canvas link with your team for collaborative review
+```
+
+### Canvas + Deep Research Workflow
+
+```
+Step 1: Use Deep Research for a technology evaluation
+Step 2: Click "Open in Canvas" from the research report
+Step 3: Interactively shape the output into an ADR or design doc
+Step 4: Share with the team via the Canvas link
+```
+
+---
+
+## 5. Gemini Scheduled Actions (June 2025)
+
+Scheduled Actions let you set up recurring or one-time automated tasks in the Gemini app:
+
+### Setting Up Scheduled Actions
+
+```
+1. In Gemini app → click the clock/schedule icon
+2. Configure:
+   - Prompt: "Summarize the top 5 Java/Spring Boot news items from this week"
+   - Frequency: Daily at 8:00 AM / Weekly Monday / One-time
+   - Delivery: Notification or email
+3. Gemini runs the task automatically at the scheduled time
+```
+
+### Developer Use Cases
+
+```
+# Daily standup prep
+"Every weekday at 8:30 AM:
+ Summarize my Google Calendar for today, highlight any new items
+ added since yesterday, and list my top 3 priorities."
+
+# Weekly tech digest
+"Every Monday at 9:00 AM:
+ Research and summarize: 1) major Java/Spring releases or CVEs from last week,
+ 2) Kubernetes updates, 3) Azure announcements relevant to AKS."
+
+# Monthly architecture review reminder
+"On the 1st of each month:
+ Create a checklist of architecture review items for a microservices system
+ running on AKS with Kafka and MySQL."
+```
+
+---
+
+## 6. Gemini in Google Workspace
 
 With Gemini Advanced (Google One AI Premium), Gemini integrates into Workspace apps:
 
@@ -304,12 +476,14 @@ With Gemini Advanced (Google One AI Premium), Gemini integrates into Workspace a
 
 ---
 
-## 4. NotebookLM
+## 7. NotebookLM
 
 **URL:** https://notebooklm.google.com
 
 NotebookLM is an AI-powered research tool that lets you upload documents and have
 AI conversations grounded entirely in your uploaded content.
+
+**2026 Update:** NotebookLM is now integrated into the Gemini app — notebooks appear as chat projects with deep NotebookLM integration. You can pull notebooks as sources directly into Gemini conversations.
 
 ### Key Features
 
@@ -321,6 +495,9 @@ AI conversations grounded entirely in your uploaded content.
 | Audio overviews | Generates a podcast-style audio summary of your sources |
 | Notes | Save and organize AI-generated insights |
 | Collaboration | Share notebooks with team members |
+| **Gemini app integration** | Access notebooks directly from Gemini chat (2026) |
+| **Temporary Chat** | Chat sessions not saved to history, excluded from training (Aug 2025) |
+| **Chat History Search** | Full-text search across all NotebookLM conversations (Aug 2025) |
 
 ### How It Differs from Regular Gemini
 
@@ -399,7 +576,7 @@ Upload your team's architecture documents → Generate audio overview
 
 ---
 
-## 5. Gemini Live
+## 8. Gemini Live
 
 Gemini Live is a real-time voice conversation mode:
 
@@ -433,7 +610,134 @@ Gemini Live is a real-time voice conversation mode:
 
 ---
 
-## 6. Extensions and Integrations
+## 9. Gemini for Mac & Gemini in Chrome
+
+### Gemini for Mac (April 15, 2026)
+
+A native macOS app — no browser tab required.
+
+| Feature | Details |
+|---------|---------|
+| **Global shortcut** | `Option + Space` — invoke Gemini from anywhere on your Mac |
+| **Window sharing** | Share any app window with Gemini for context |
+| **System context** | Gemini can see what's on your screen when you share a window |
+| **Availability** | macOS 15+, requires Google AI Pro or Ultra subscription |
+
+**Developer use case:**
+```
+1. Press Option+Space with your IDE in focus
+2. Share the IDE window with Gemini
+3. Ask: "What's wrong with the method on line 47?"
+4. Gemini reads your code directly — no copy-paste needed
+```
+
+### Gemini in Chrome (May 2025)
+
+Context-aware web analysis without switching tabs:
+
+- **Access**: Side panel in Chrome (Windows and macOS)
+- **Capability**: Analyse the current web page — documentation, articles, GitHub PRs
+- **Requires**: Google AI Pro or Ultra subscription
+
+```
+While reading a Java Spring Security documentation page:
+1. Open Gemini side panel
+2. Ask: "How does this OAuth2 configuration compare to our current setup?"
+3. Gemini reads the page and answers in context
+```
+
+---
+
+## 10. Gemini Code Assist — 2026 Updates
+
+Gemini Code Assist (the IDE developer tool) received major updates in 2025–2026.
+
+### Finish Changes (GA — March 2026)
+
+AI pair programmer that completes in-progress work — tell it what you want and it finishes the code:
+
+```
+# In IntelliJ or VS Code, write a pseudocode comment or partial implementation:
+
+// TODO: add retry logic with exponential backoff, max 3 retries, delay starting at 1s
+public void callExternalService(String url) {
+    // stub
+}
+
+# Then ask Gemini Code Assist: "Finish this"
+# Result: complete implementation with Resilience4j Retry or manual retry loop
+```
+
+**Works from:**
+- TODO comments and pseudocode
+- Half-written code
+- Natural language descriptions alongside partial implementations
+
+**GA dates:** VS Code (March 4, 2026), IntelliJ (February 24, 2026)
+
+### Outline Feature (GA — 2026)
+
+Automatically generates English summaries of code blocks in the Outline tab:
+
+- Opens alongside the file in the IDE's outline view
+- Shows natural-language description of each method and class
+- Helps orient quickly in unfamiliar codebases
+- Available in both VS Code and IntelliJ
+
+### Next Edit Predictions (Preview — September 2025)
+
+Forecasts the next code change you're likely to make based on the current edit:
+
+```java
+// You rename this field:
+private final OrderService orderService;  →  private final OrderManager orderManager;
+
+// Next Edit Prediction offers:
+// → Update constructor parameter name
+// → Update all usages within the class
+// → Update the @Bean method name in config
+```
+
+**Status:** Preview in VS Code (September 26, 2025)
+
+### Agent Mode in Code Assist (2025–2026)
+
+| Feature | Date | Description |
+|---------|------|-------------|
+| **Agent mode GA — IntelliJ** | Jul 31, 2025 | Full agent mode (plan + execute) in JetBrains |
+| **Auto-approve with rollback** | Jul 24, 2025 | Agent mode changes can be approved automatically; rollback on failure |
+| **MCP server integration** | Oct 14, 2025 | Connect external services to Code Assist agent via MCP |
+| **`/deploy` command** | Sep 10, 2025 | Direct Cloud Run deployment from agent mode |
+| **`@` remote repo mentions** | Sep 3, 2025 | Prioritize specific repository context in chat |
+| **Gemini on GitHub** | Nov 10, 2025 | Enterprise Code Assist with multi-repo support and persistent memory for GitHub |
+| **Gemini 3.1 Pro in Code Assist** | Mar 13, 2026 (preview) | Agent mode, chat, code gen using Gemini 3.1 Pro |
+
+### Code Customization
+
+- **Repository indexing** — Index your organization's repos for project-aware completions (configured via Google Cloud Console)
+- **Expanded to CLI and agent mode** (November 12, 2025)
+- **Customer-managed encryption keys** for indexed code (December 12, 2025)
+- **Data residency support** (March 12, 2025)
+
+---
+
+## 14. Deprecations
+
+| Model / Feature | Shutdown Date |
+|----------------|---------------|
+| `gemini-2.0-flash` variants | June 1, 2026 |
+| Gemini 1.5 models (all) | September 29, 2025 |
+| `text-embedding-004` | January 14, 2026 |
+| `gemini-robotics-er-1.5-preview` | April 30, 2026 |
+
+**Migration path:**
+- `gemini-1.5-pro` → `gemini-2.5-pro` (drop-in compatible for most use cases)
+- `gemini-2.0-flash` → `gemini-3-flash` or `gemini-2.5-flash`
+- `text-embedding-004` → `gemini-embedding-001` or `gemini-embedding-2` (multimodal)
+
+---
+
+## 11. Extensions and Integrations
 
 Gemini supports extensions that connect it to external services:
 
@@ -489,7 +793,7 @@ This lets Gemini:
 
 ---
 
-## 7. Grounding and Citations
+## 12. Grounding and Citations
 
 ### How Grounding Works
 
@@ -543,7 +847,7 @@ public String groundedQuery(String question) {
 
 ---
 
-## 8. Safety Settings and Content Filtering
+## 13. Safety Settings and Content Filtering
 
 ### Safety Categories
 
@@ -635,7 +939,7 @@ public String safeGenerate(String prompt) {
 
 ---
 
-## 9. Practical Use Cases for Senior Developers
+## 15. Practical Use Cases for Senior Developers
 
 ### Daily Productivity Gains
 
@@ -697,7 +1001,7 @@ for Tomcat, scheduled tasks, and Kafka consumers"
 
 ---
 
-## 10. Try This Exercises
+## 16. Try This Exercises
 
 ### Exercise 1: Create Your First Gem (10 min)
 1. Go to gemini.google.com → Gem Manager
@@ -734,18 +1038,40 @@ for Tomcat, scheduled tasks, and Kafka consumers"
 3. Understand why it was blocked (check safety ratings in the response)
 4. Write a Java wrapper that gracefully handles blocked responses
 
+### Exercise 6: Canvas for a Technical Design Doc (15 min)
+1. Open Gemini → start a Canvas session
+2. Ask: "In Canvas, write a technical design document for a cache invalidation strategy using Redis for a multi-service Spring Boot system"
+3. Iterate: "Add a section covering the Spring Boot implementation with `@CacheEvict`"
+4. Export to Google Docs and share with a teammate
+
+### Exercise 7: Set Up a Scheduled Action (10 min)
+1. Open the Gemini app → click the schedule icon
+2. Create a weekly action: "Every Monday at 9 AM, research and summarize: top Spring Boot CVEs or updates from last week, and any Kubernetes AKS announcements"
+3. Verify the first scheduled run
+
+### Exercise 8: Gemini Code Assist — Finish Changes (15 min)
+1. In IntelliJ or VS Code with Gemini Code Assist installed
+2. Write a TODO comment in Java: `// TODO: implement rate limiting using token bucket algorithm, max 100 req/sec per user, backed by Redis`
+3. Ask Gemini Code Assist: "Finish this"
+4. Review the generated implementation
+5. Ask it to also generate a test class for the rate limiter
+
 ---
 
 ## Key Takeaways
 
-1. **Gems** are reusable system prompts — create one per role (reviewer, architect, debugger)
-2. **Deep Research** replaces hours of manual research with a 5-minute automated report
-3. **NotebookLM** is groundbreaking for source-grounded analysis — zero hallucination risk
-4. **Workspace integration** saves time on documentation, planning, and communication
-5. **Gemini Live** is best for brainstorming where typing feels slow
-6. **Grounding** prevents outdated information — use it for anything time-sensitive
-7. **Safety settings** are essential for production — always have filtering enabled
-8. Combined, these features save **5-10 hours per week** for a senior developer
+1. **Gemini 3.x** is the current model family — Gemini 3.1 Pro is state-of-the-art reasoning as of April 2026
+2. **Gems + Shareable Gems** — create team-standard personas, share via Drive-style links
+3. **Deep Research** replaces hours of manual research; now upgraded to 3.x Thinking + Canvas output
+4. **Canvas** is a collaborative workspace for iterative document/code creation — key for ADRs and design docs
+5. **NotebookLM** is groundbreaking for source-grounded analysis — zero hallucination risk; now integrated in Gemini app
+6. **Scheduled Actions** automate recurring research and digests — no scripting required
+7. **Workspace integration** saves time on documentation, planning, and communication
+8. **Gemini Code Assist** — Finish Changes, Agent Mode, and Next Edit Predictions are major productivity gains for IntelliJ/VS Code
+9. **Deprecation alert**: Gemini 1.5 models shut down Sep 29, 2025; `gemini-2.0-flash` ends Jun 1, 2026 — migrate now
+10. Combined, these features save **5-10 hours per week** for a senior developer
+
+*Last updated: April 2026.*
 
 ---
 
