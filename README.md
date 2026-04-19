@@ -90,6 +90,7 @@ daily-learning-plans/
 | 2026-04-14 | API Gateway & BFF — Spring Cloud Gateway, JWT Auth, Rate Limiting, Backend for Frontend | [View](daily-learning-plans/2026-04/14-api-gateway-and-bff.md) |
 | 2026-04-15 | Service Mesh & Istio — Traffic Management, mTLS, Observability, Canary Deployments, AKS | [View](daily-learning-plans/2026-04/15-service-mesh-and-istio.md) |
 | 2026-04-18 | Docker Deep-Dive — Internals, Multi-Stage Builds, Image Optimisation, Compose, Security | [View](daily-learning-plans/2026-04/40-docker-deep-dive.md) |
+| 2026-04-19 | Kubernetes Core — Architecture, Pods, Deployments, Services, ConfigMaps, Probes, AKS | [View](daily-learning-plans/2026-04/19-kubernetes-core.md) |
 
 ### AI Daily News
 
@@ -116,6 +117,7 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 | 2026-04-16 | Mistral Large 3 ships with EU data residency, Anthropic Claude Mythos Preview goes to 50 partners via Project Glasswing, EU AI Act open-source exemptions clarified | [View](ai-daily-news/2026-04/16-ai-news.md) |
 | 2026-04-17 | OpenAI co-founds Agentic AI Foundation under Linux Foundation, Microsoft Agent Framework open-sourced, AI finance adoption stalls at department level | [View](ai-daily-news/2026-04/17-ai-news.md) |
 | 2026-04-18 | Claude Opus 4.6 tops LMSYS Arena with hybrid MoE architecture, DeepSeek R2 rivals o3 at 70% cost, EU AI Act enforcement begins August 2026 | [View](ai-daily-news/2026-04/18-ai-news.md) |
+| 2026-04-19 | Anthropic Closes $30B Series G at $380B Valuation, xAI Grok 3 Gets Persistent Memory, DeepSeek R2 Hits 92.7% on AIME | [View](ai-daily-news/2026-04/19-ai-news.md) |
 
 ---
 
