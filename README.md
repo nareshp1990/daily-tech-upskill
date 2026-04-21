@@ -91,6 +91,7 @@ daily-learning-plans/
 | 2026-04-15 | Service Mesh & Istio — Traffic Management, mTLS, Observability, Canary Deployments, AKS | [View](daily-learning-plans/2026-04/15-service-mesh-and-istio.md) |
 | 2026-04-18 | Docker Deep-Dive — Internals, Multi-Stage Builds, Image Optimisation, Compose, Security | [View](daily-learning-plans/2026-04/40-docker-deep-dive.md) |
 | 2026-04-19 | Kubernetes Core — Architecture, Pods, Deployments, Services, ConfigMaps, Probes, AKS | [View](daily-learning-plans/2026-04/19-kubernetes-core.md) |
+| 2026-04-21 | Kubernetes Advanced — HPA/KEDA Autoscaling, Helm, Operators, NetworkPolicy, RBAC, StatefulSets | [View](daily-learning-plans/2026-04/21-kubernetes-advanced.md) |
 
 ### AI Daily News
 
@@ -118,6 +119,8 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 | 2026-04-17 | OpenAI co-founds Agentic AI Foundation under Linux Foundation, Microsoft Agent Framework open-sourced, AI finance adoption stalls at department level | [View](ai-daily-news/2026-04/17-ai-news.md) |
 | 2026-04-18 | Claude Opus 4.6 tops LMSYS Arena with hybrid MoE architecture, DeepSeek R2 rivals o3 at 70% cost, EU AI Act enforcement begins August 2026 | [View](ai-daily-news/2026-04/18-ai-news.md) |
 | 2026-04-19 | Anthropic Closes $30B Series G at $380B Valuation, xAI Grok 3 Gets Persistent Memory, DeepSeek R2 Hits 92.7% on AIME | [View](ai-daily-news/2026-04/19-ai-news.md) |
+| 2026-04-20 | OpenAI Ships GPT-5.1 with Dynamic Reasoning Budget, Meta Releases Llama 4.5 Under Permissive License, Anthropic + AWS Expand Bedrock Partnership to $8B | [View](ai-daily-news/2026-04/20-ai-news.md) |
+| 2026-04-21 | Anthropic Claude Mythos Public Preview Ships, NVIDIA Unveils Rubin Ultra Roadmap, OpenAI + Oracle Sign $15B Stargate Expansion | [View](ai-daily-news/2026-04/21-ai-news.md) |
 
 ---
 
