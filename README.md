@@ -92,6 +92,7 @@ daily-learning-plans/
 | 2026-04-18 | Docker Deep-Dive — Internals, Multi-Stage Builds, Image Optimisation, Compose, Security | [View](daily-learning-plans/2026-04/40-docker-deep-dive.md) |
 | 2026-04-19 | Kubernetes Core — Architecture, Pods, Deployments, Services, ConfigMaps, Probes, AKS | [View](daily-learning-plans/2026-04/19-kubernetes-core.md) |
 | 2026-04-21 | Kubernetes Advanced — HPA/KEDA Autoscaling, Helm, Operators, NetworkPolicy, RBAC, StatefulSets | [View](daily-learning-plans/2026-04/21-kubernetes-advanced.md) |
+| 2026-04-24 | Phase 3 Week 1 Capstone & Review — Microservices → Gateway → Mesh → Docker → K8s Core → K8s Advanced | [View](daily-learning-plans/2026-04/24-phase3-week1-capstone.md) |
 
 ### AI Daily News
 
@@ -121,6 +122,9 @@ Stay up-to-date with the latest AI developments, research breakthroughs, and ind
 | 2026-04-19 | Anthropic Closes $30B Series G at $380B Valuation, xAI Grok 3 Gets Persistent Memory, DeepSeek R2 Hits 92.7% on AIME | [View](ai-daily-news/2026-04/19-ai-news.md) |
 | 2026-04-20 | OpenAI Ships GPT-5.1 with Dynamic Reasoning Budget, Meta Releases Llama 4.5 Under Permissive License, Anthropic + AWS Expand Bedrock Partnership to $8B | [View](ai-daily-news/2026-04/20-ai-news.md) |
 | 2026-04-21 | Anthropic Claude Mythos Public Preview Ships, NVIDIA Unveils Rubin Ultra Roadmap, OpenAI + Oracle Sign $15B Stargate Expansion | [View](ai-daily-news/2026-04/21-ai-news.md) |
+| 2026-04-22 | Claude Mythos Enterprise GA Ships with Agentic Controls, Google Unveils Gemini 3.2 with 5M-Token Context, EU AI Office Publishes Q1 Enforcement Summary | [View](ai-daily-news/2026-04/22-ai-news.md) |
+| 2026-04-23 | OpenAI Responses API Hits GA with Native Agent Runtime, First MCP Security CVE Disclosed and Patched, NVIDIA Reports $54B Quarterly Data-Center Revenue | [View](ai-daily-news/2026-04/23-ai-news.md) |
+| 2026-04-24 | Anthropic Publishes MCP 1.2 RFC with Agent-to-Agent Protocol, Gemini 3.2 Flash Thinking Ships, Fortune 500 Mythos Adoption Crosses 60% | [View](ai-daily-news/2026-04/24-ai-news.md) |
 
 ---
 
